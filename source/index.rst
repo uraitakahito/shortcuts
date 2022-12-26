@@ -3,13 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to shortcuts's documentation!
+Keyboard shortcuts for Mac
 =====================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+Visual Studio Code
+==================
+
+``fn + ←``
+   jump th the start of the line
+
+``fn + →``
+   jump to the end of the line
+
+.. note::
+   `cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>`_
 
 
 Indices and tables
