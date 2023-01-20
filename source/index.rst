@@ -14,7 +14,7 @@ Visual Studio Code
 ==================
 
 ``fn + ←``
-   jump th the start of the line
+   jump to the start of the line
 
 ``fn + →``
    jump to the end of the line
