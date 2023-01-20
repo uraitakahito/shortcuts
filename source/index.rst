@@ -20,7 +20,7 @@ Visual Studio Code
    jump to the end of the line
 
 .. note::
-   `cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>`_
+   `vscode cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>`_
 
 
 Slack
@@ -30,7 +30,7 @@ Slack
    Open the "All unreads" dialog
 
 .. note::
-   `cheat sheet <https://dispatch.m.io/slack-keyboard-shortcuts-cheat-sheet/>`_
+   `84 Slack Keyboard Shortcuts: Your Cheat Sheet <https://dispatch.m.io/slack-keyboard-shortcuts-cheat-sheet/>`_
 
 
 Indices and tables
