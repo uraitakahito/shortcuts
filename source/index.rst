@@ -23,6 +23,16 @@ Visual Studio Code
    `cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>`_
 
 
+Slack
+======
+
+``⌘ + ⇧ + a``
+   Open the "All unreads" dialog
+
+.. note::
+   `cheat sheet <https://dispatch.m.io/slack-keyboard-shortcuts-cheat-sheet/>`_
+
+
 Indices and tables
 ==================
 
