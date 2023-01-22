@@ -73,9 +73,6 @@ Sidebars
 ``⌘ + ⇧ + f``
    search
 
-``⌘ + ⇧ + ``
-   debug
-
 Command Palette
 ---------------
 
