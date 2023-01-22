@@ -17,37 +17,79 @@ General
 -------
 
 ``⌘ + ⇧ + p``
-   Show Command Palette
+   show Command Palette
 
 ``⌘ + p``
    Quick Open, Go to File...
 
-``fn + ←``
+``⌘ + Left``
    jump to the start of the line
 
-``fn + →``
+``⌘ + Right``
    jump to the end of the line
+
+``⌃ + Left(Right)``
+   move by word
 
 ``⌘ + \``
    split editor
 
-``ctrl + ⌘ + ←→``
+``⌃ + ⌘ + Left(Right)``
    move a tab from one of two split editors to another
 
-``Ctrl + ```
+``⌃ + ```
    focus the terminal
 
-``Ctrl + 1``
+``⌃ + 1``
    focus the editor
 
-Basic Editing
--------------
+Navigation
+----------
+
+``⌃ + g``
+   go to line
+
+multi-cursor / Selection
+------------------------
+
+``⌘ + d``
+   select current word
+
+``⌘ + l``
+   select current line
+
+``⇧ + ⌥ + Left(Right)``
+   extend selection by word
+
+``⇧ + ⌘ + l``
+   select all occurrences of current selection
+
+``⇧ + ⌥ + ⌘ + Up/Down/Left/Right``
+   column box selection
+
+Editing
+-------
 
 ``⌘ + x``
    Cut line(empty selection)
 
 ``⌘ + c``
    Copy line(empty selection)
+
+``⌘ + /``
+   Toggle line comment
+
+``⇧ + ⌘ + /``
+   delete line
+
+``⌘ + ⏎``
+   insert line below
+
+``⇧ + ⌘ + ⏎``
+   insert line above
+
+``⌥ + Up/Down``
+   move line up/down
 
 Panel
 -----
@@ -72,6 +114,21 @@ Sidebars
 
 ``⌘ + ⇧ + f``
    search
+
+``⌘ + k, e``
+   Explorer: Focus on Open Editors View
+
+Window Management
+-----------------
+
+``⌘ + w``
+   close editor/window
+
+File Management
+---------------
+
+``⌘ + s``
+   save
 
 Command Palette
 ---------------
