@@ -215,9 +215,3 @@ Address bar shorcuts
 .. note::
    `Google Chrome Help <https://support.google.com/chrome/answer/157179>`_
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
