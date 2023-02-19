@@ -215,3 +215,34 @@ Address bar shorcuts
 .. note::
    `Google Chrome Help <https://support.google.com/chrome/answer/157179>`_
 
+Vim
+=============
+
+Exiting
+----------------------
+
+``q``
+   Close file
+
+Navigating
+----------------------
+
+``b/w``
+   Previous/next word
+
+``^``
+   Start of line(after whitespace)
+
+``$``
+   End of line
+
+Editing
+----------------------
+
+``u``
+   Undo changes
+
+.. note::
+   `Vim cheatsheet <https://devhints.io/vim>`_
+
+
