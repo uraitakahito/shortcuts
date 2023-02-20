@@ -212,6 +212,11 @@ Address bar shorcuts
 ``⌘ + l``
    highlight content in the web address area
 
+Site shortcuts
+--------------------
+
+@bookmarks, @history and @tabs
+
 .. note::
    `Google Chrome Help <https://support.google.com/chrome/answer/157179>`_
 
