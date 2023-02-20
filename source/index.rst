@@ -244,6 +244,12 @@ Navigating
 Editing
 ----------------------
 
+``o``
+   Next line
+
+``O``
+   Previous line
+
 ``u``
    Undo changes
 
