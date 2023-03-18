@@ -386,6 +386,9 @@ Window commands
 Misc
 --------------------
 
+``:terminal``
+   `Terminal window support. <https://vimhelp.org/terminal.txt.html>`_
+
 ``:h[elp] {subject}``
    Open a window and display the help file in read-only, additionally jump to the tag {subject}. `Prepend something to specify the context. e.g. Insert mode command is :help i_<Esc> <https://vimhelp.org/>`_
 
