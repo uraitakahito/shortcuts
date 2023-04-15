@@ -28,7 +28,7 @@ General
 ``⌘ + Right``
    jump to the end of the line
 
-``⌃ + Left(Right)``
+``⌥ + Left(Right)``
    move by word
 
 ``⌘ + \``
@@ -141,6 +141,12 @@ Command Palette
 
 ``View: Move Editor Group XXX``
    move a tab from A to B
+
+Core CLI options
+------------------
+
+``-r or --reuse-window``
+   Forces opening a file or folder in the last active window.
 
 .. note::
    `vscode cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf>`_
@@ -399,5 +405,20 @@ Misc
 
 .. note::
    `Vim cheatsheet <https://devhints.io/vim>`_
+
+Zsh
+=============
+
+Navigation
+--------------------
+
+``C-a``
+   Move the cursor to the beginning of the line
+
+``C-e``
+   Move the cursor to the end of the line
+
+``⌥ + Left(Right)``
+   Move the cursor one word backward(forward)
 
 
