@@ -182,13 +182,13 @@ Tab & window shortcuts
 ``⌃ + tab``
    switch to the next tab
 
-``⌘ + ⇧ + tab``
+``⌃ + ⇧ + tab``
    switch to the previous tab
 
 ``⌘ + w``
    close the current tab or pop up
 
-``⌘ + [/] or ⌘ + Left/Right``
+``⌘ + Left/Right``
    open the previous/next page in your browsing history for the current tab
 
 ``⌘ + ⇧ + a``
@@ -199,9 +199,6 @@ Google Chrome feature shortcuts
 
 ``⌘ + y``
    open the history page in a new tab
-
-``⌘ + g``
-   jump to the next match to your Find Bar search
 
 ``⌘ + ⇧ + g``
    jump to the previous match to your Find Bar search
