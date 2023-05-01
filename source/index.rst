@@ -155,6 +155,9 @@ Core CLI options
 Slack
 ======
 
+``⌘ + k``
+   move channel
+
 ``⌘ + ⇧ + a``
    Open the "All unreads" dialog
 
