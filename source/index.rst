@@ -250,6 +250,9 @@ Editing
 ``O``
    Begin a new line above the cursor and insert text, repeat [count] times.
 
+``r``
+   Replace one character.
+
 ``u``
    Undo [count] changes.
 
