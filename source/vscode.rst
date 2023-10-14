@@ -113,6 +113,9 @@ Window Management
 ``⌘ + w``
    close editor/window
 
+``⌥ + ⌘ + ⇦(⇨)``
+   Open Previous(Next) Editor
+
 File Management
 =========================
 
