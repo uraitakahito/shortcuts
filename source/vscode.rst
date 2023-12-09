@@ -137,6 +137,9 @@ Command Palette
 Core CLI options
 =========================
 
+``-d or --diff <file1> <file2>``
+   Open a file difference editor. Requires two file paths as arguments.
+
 ``-r or --reuse-window``
    Forces opening a file or folder in the last active window.
 
