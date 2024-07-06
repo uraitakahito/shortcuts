@@ -68,9 +68,6 @@ Editing
 ``⌘ + /``
    Toggle line comment
 
-``⇧ + ⌘ + /``
-   delete line
-
 ``⌘ + ⏎``
    insert line below
 
@@ -79,6 +76,12 @@ Editing
 
 ``⌥ + Up/Down``
    move line up/down
+
+Development
+=========================
+
+``⇧ + ⌘ + O``
+   You can navigate symbols inside a file with ⇧⌘O. By typing : the symbols will be grouped by category. Press Up or Down and navigate to the place you want. ( `See Also <https://code.visualstudio.com/docs/editor/editingevolved#_go-to-symbol>`_ )
 
 Panel
 -----
