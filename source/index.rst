@@ -15,3 +15,4 @@ Keyboard shortcuts for Mac
    chrome
    vim
    zsh
+   alfred
