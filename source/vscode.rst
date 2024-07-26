@@ -26,9 +26,6 @@ General
 ``⌃ + ⌘ + Left(Right)``
    move a tab from one of two split editors to another
 
-``⌃ + ```
-   focus the terminal
-
 ``⌃ + 1``
    focus the editor
 
@@ -77,6 +74,25 @@ Editing
 ``⌥ + Up/Down``
    move line up/down
 
+Display
+=========================
+
+``⌘ + b``
+   Toggle sidebar visibility
+
+``⌘ + ⇧ + e``
+   Show explorer / Toggle focus
+
+``⌃ + ⇧ + g``
+   Show source control
+
+``⌘ + k + v``
+   Open Preview to the Side
+
+``⌃ + ```
+   Toggle integrated terminal
+
+
 Development
 =========================
 
@@ -97,15 +113,6 @@ Panel
 
 Sidebars
 =========================
-
-``⌘ + b``
-   toggle sidebar
-
-``⌘ + ⇧ + e``
-   explorer
-
-``⌘ + ⇧ + f``
-   search
 
 ``⌘ + k, e``
    Explorer: Focus on Open Editors View
