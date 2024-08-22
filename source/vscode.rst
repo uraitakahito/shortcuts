@@ -5,23 +5,8 @@ Visual Studio Code
 General
 =========================
 
-``⌘ + ⇧ + p``
-   show Command Palette
-
-``⌘ + p``
-   Quick Open, Go to File...
-
-``⌘ + Left``
-   jump to the start of the line
-
-``⌘ + Right``
-   jump to the end of the line
-
 ``⌥ + Left(Right)``
    move by word
-
-``⌘ + \``
-   split editor
 
 ``⌃ + ⌘ + Left(Right)``
    move a tab from one of two split editors to another
@@ -62,9 +47,6 @@ Editing
 ``⌘ + c``
    Copy line(empty selection)
 
-``⌘ + /``
-   Toggle line comment
-
 ``⌘ + ⏎``
    insert line below
 
@@ -76,12 +58,6 @@ Editing
 
 Display
 =========================
-
-``⌘ + b``
-   Toggle sidebar visibility
-
-``⌘ + ⇧ + e``
-   Show explorer / Toggle focus
 
 ``⌃ + ⇧ + g``
    Show source control
@@ -99,11 +75,11 @@ Development
 ``⇧ + ⌘ + O``
    You can navigate symbols inside a file with ⇧⌘O. By typing : the symbols will be grouped by category. Press Up or Down and navigate to the place you want. ( `See Also <https://code.visualstudio.com/docs/editor/editingevolved#_go-to-symbol>`_ )
 
+``⌃ + ⌘ + i``
+   Copilot Chat
+
 Panel
 -----
-
-``⌘ + j``
-   toggle panel
 
 ``⌘ + ⇧ + u``
    output
@@ -116,21 +92,6 @@ Sidebars
 
 ``⌘ + k, e``
    Explorer: Focus on Open Editors View
-
-Window Management
-=========================
-
-``⌘ + w``
-   close editor/window
-
-``⌥ + ⌘ + ⇦(⇨)``
-   Open Previous(Next) Editor
-
-File Management
-=========================
-
-``⌘ + s``
-   save
 
 Command Palette
 =========================
