@@ -75,6 +75,9 @@ Development
 ``⌃ + ⌘ + i``
    Copilot Chat
 
+``⌘ + k, ⌘ + l``
+   Expand/Collapse current code block
+
 Panel
 ----------------
 
