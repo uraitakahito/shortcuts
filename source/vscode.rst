@@ -14,6 +14,9 @@ General
 ``⌃ + 1``
    focus the editor
 
+``⌘ + k, ⌘ + ⇧ + Left(Right)``
+   move tab
+
 Navigation
 =========================
 
