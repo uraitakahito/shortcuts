@@ -26,14 +26,8 @@ multi-cursor / Selection
 ``⌘ + d``
    select current word
 
-``⌘ + l``
-   select current line
-
 ``⇧ + ⌥ + Left(Right)``
    extend selection by word
-
-``⇧ + ⌘ + l``
-   select all occurrences of current selection
 
 ``⇧ + ⌥ + ⌘ + Up/Down/Left/Right``
    column box selection
