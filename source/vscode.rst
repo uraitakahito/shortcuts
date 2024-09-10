@@ -79,7 +79,7 @@ Development
    Copilot Chat
 
 Panel
------
+----------------
 
 ``⌘ + ⇧ + u``
    output
@@ -92,6 +92,19 @@ Sidebars
 
 ``⌘ + k, e``
    Explorer: Focus on Open Editors View
+
+Extensions
+=========================
+
+Bookmarks
+----------------
+
+``⌘ + ⌥ + k``
+   Mark/unmark positions in your code
+
+``⌘ + ⌥ + j/l``
+   Jump forward and backward between bookmarks
+
 
 Command Palette
 =========================
