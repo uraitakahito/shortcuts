@@ -14,6 +14,9 @@ General
 ``⌃ + 1``
    focus the editor
 
+``⌘ + k, ⌘ + ⇧ + Left(Right)``
+   move tab
+
 Navigation
 =========================
 
@@ -26,14 +29,8 @@ multi-cursor / Selection
 ``⌘ + d``
    select current word
 
-``⌘ + l``
-   select current line
-
 ``⇧ + ⌥ + Left(Right)``
    extend selection by word
-
-``⇧ + ⌘ + l``
-   select all occurrences of current selection
 
 ``⇧ + ⌥ + ⌘ + Up/Down/Left/Right``
    column box selection
@@ -77,6 +74,9 @@ Development
 
 ``⌃ + ⌘ + i``
    Copilot Chat
+
+``⌘ + k, ⌘ + l``
+   Expand/Collapse current code block
 
 Panel
 ----------------
