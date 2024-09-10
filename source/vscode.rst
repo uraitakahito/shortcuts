@@ -96,6 +96,9 @@ Sidebars
 Command Palette
 =========================
 
+``Dev Containers: Attach to Running Container``
+   Attach to a Docker container
+
 ``Preferences: Open Keyboard Shortcuts``
    edit and find available key bindings
 
