@@ -93,6 +93,9 @@ Sidebars
 ``⌘ + k, e``
    Explorer: Focus on Open Editors View
 
+``⌥ + ⌘ + f``
+   [Search for files in the File Explorer(https://code.visualstudio.com/updates/v1_94#_find-in-explorer)
+
 Extensions
 =========================
 
