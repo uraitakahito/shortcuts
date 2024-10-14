@@ -53,6 +53,13 @@ Editing
 ``⌥ + Up/Down``
    move line up/down
 
+Window Management
+=========================
+
+``⌘ + 1/2``
+   Focus into First/Second Editor Group
+
+
 Display
 =========================
 
