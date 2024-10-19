@@ -35,6 +35,9 @@ multi-cursor / Selection
 ``⇧ + ⌥ + ⌘ + Up/Down/Left/Right``
    column box selection
 
+``⌘ + ⇧ + l``
+   Select all occurrences of current selection
+
 Editing
 =========================
 
