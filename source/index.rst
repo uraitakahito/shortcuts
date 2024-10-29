@@ -16,3 +16,4 @@ Keyboard shortcuts for Mac
    vim
    zsh
    alfred
+   iterm2

@@ -23,6 +23,11 @@ Navigation
 ``⌃ + g``
    go to line
 
+``⇧ + ⌘ + \``
+   Bracket matching
+
+https://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching
+
 multi-cursor / Selection
 =========================
 
