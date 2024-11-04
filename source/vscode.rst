@@ -67,6 +67,9 @@ Window Management
 ``⌘ + 1/2``
    Focus into First/Second Editor Group
 
+``⌘ + ⇧ + ]``
+   Move to previous terminal
+
 
 Display
 =========================
