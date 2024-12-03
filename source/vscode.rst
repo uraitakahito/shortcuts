@@ -24,9 +24,7 @@ Navigation
    go to line
 
 ``⇧ + ⌘ + \``
-   Bracket matching
-
-https://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching
+   `Bracket matching <https://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching>`_
 
 multi-cursor / Selection
 =========================
@@ -112,7 +110,7 @@ Sidebars
    Explorer: Focus on Open Editors View
 
 ``⌥ + ⌘ + f``
-   [Search for files in the File Explorer(https://code.visualstudio.com/updates/v1_94#_find-in-explorer)
+   `Search for files in the File Explorer <https://code.visualstudio.com/updates/v1_94#_find-in-explorer>`_
 
 Extensions
 =========================
