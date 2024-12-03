@@ -13,7 +13,7 @@ And run it:
 Run below commands inside the Docker containers:
 
 ```console
-% poetry install
-% poetry run make html
+% uv sync
+% uv run make html
 % open build/html/index.html
 ```
