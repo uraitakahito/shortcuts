@@ -17,3 +17,4 @@ Keyboard shortcuts for Mac
    zsh
    alfred
    iterm2
+   colab
