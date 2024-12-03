@@ -1,5 +1,5 @@
-# Debian 12.7
-FROM debian:bookworm-20241016
+# Debian 12.8
+FROM debian:bookworm-20241111
 
 ARG user_name=developer
 ARG user_id
@@ -7,7 +7,7 @@ ARG group_id
 ARG dotfiles_repository="https://github.com/uraitakahito/dotfiles.git"
 ARG features_repository="https://github.com/uraitakahito/features.git"
 ARG extra_utils_repository="https://github.com/uraitakahito/extra-utils.git"
-ARG python_version=3.12.5
+ARG variant=3.12.5
 
 #
 # Git
@@ -45,16 +45,14 @@ RUN cd /usr/src && \
     /usr/src/extra-utils/install.sh
 
 #
-# Install Python
-#   https://github.com/uraitakahito/features/blob/mymain/src/python/install.sh
+# Install uv
+# https://docs.astral.sh/uv/guides/integration/docker/#installing-uv
 #
-# see also:
-#   https://github.com/uraitakahito/features/blob/426e14ecbc3df89ea63f7b3b0a3721f2960f119a/src/python/install.sh#L667-L670
-ENV PATH=$PATH:/usr/local/python/current/bin
-
-RUN USERNAME=${user_name} \
-    VERSION=${python_version} \
-      /usr/src/features/src/python/install.sh
+RUN curl --fail-early --silent --show-error --location https://astral.sh/uv/install.sh --output /tmp/uv-install.sh && \
+  # Changing the install path
+  # https://github.com/astral-sh/uv/blob/main/docs/configuration/installer.md#changing-the-install-path
+  UV_INSTALL_DIR=/bin sh /tmp/uv-install.sh && \
+  rm /tmp/uv-install.sh
 
 #
 # sphinx - pdf
@@ -84,15 +82,14 @@ RUN apt-get update -qq && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
-#
-# poetry
-#
-RUN pip install --no-cache-dir --upgrade pip && \
-  pip install --no-cache-dir poetry
-
 COPY docker-entrypoint.sh /usr/local/bin/
 
 USER ${user_name}
+
+#
+# Install Python
+#
+RUN uv python install ${variant}
 
 #
 # dotfiles
