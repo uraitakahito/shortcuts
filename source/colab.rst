@@ -11,3 +11,5 @@ Google Colaboratory
 ``⌘ + m, d``
    To delete a cell
 
+``⌘ + F9``
+   Run all cells in the notebook
