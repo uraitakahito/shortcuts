@@ -34,7 +34,10 @@ Google Chrome feature shortcuts
    jump to the previous match to your Find Bar search
 
 ``⌘ + ⌥ + i``
-   open Developer Tools
+   open Developer Tools(your last panel)
+
+``⌘ + ⌥ + j``
+   open Console Panel
 
 Site shortcuts
 ================================
