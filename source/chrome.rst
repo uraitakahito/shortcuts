@@ -18,15 +18,6 @@ Tab & window shortcuts
 ``⌘ + 9``
    switch to the last tab
 
-``⌃ + tab``
-   switch to the next tab
-
-``⌃ + ⇧ + tab``
-   switch to the previous tab
-
-``⌘ + w``
-   close the current tab or pop up
-
 ``⌘ + Left/Right``
    open the previous/next page in your browsing history for the current tab
 
@@ -43,16 +34,10 @@ Google Chrome feature shortcuts
    jump to the previous match to your Find Bar search
 
 ``⌘ + ⌥ + i``
-   open Developer Tools
+   open Developer Tools(your last panel)
 
-``⌘ + ⇧ + delete``
-   open the Clear Browsing Data options
-
-Address bar shorcuts
-================================
-
-``⌘ + l``
-   highlight content in the web address area
+``⌘ + ⌥ + j``
+   open Console Panel
 
 Site shortcuts
 ================================
