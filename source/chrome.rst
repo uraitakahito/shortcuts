@@ -24,6 +24,9 @@ Tab & window shortcuts
 ``⌘ + ⇧ + a``
    search your tabs
 
+``⌃ + ⇧ + PgUp(PgDn)``
+   Move tabs right or left
+
 Google Chrome feature shortcuts
 ================================
 
