@@ -18,3 +18,4 @@ Keyboard shortcuts for Mac
    alfred
    iterm2
    colab
+   tmux
