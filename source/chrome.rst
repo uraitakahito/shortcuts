@@ -5,7 +5,6 @@ Google Chrome
 Tab & window shortcuts
 ================================
 
-
 ``⌘ + ⇧ + n``
    open a new window in incognito mode
 
@@ -26,6 +25,12 @@ Tab & window shortcuts
 
 ``⌃ + ⇧ + PgUp(PgDn)``
    Move tabs right or left
+
+Webpage shortcuts
+================================
+
+``⌘ + ⇧ + r``
+   reload your current page, ignoring cached content
 
 Google Chrome feature shortcuts
 ================================
