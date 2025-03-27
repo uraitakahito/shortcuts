@@ -59,6 +59,9 @@ Editing
 ``⌥ + Up/Down``
    move line up/down
 
+``⌘ + ⇧ + h``
+   Replace text in bulk
+
 Window Management
 =========================
 
