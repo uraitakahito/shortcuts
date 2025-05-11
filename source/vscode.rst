@@ -127,6 +127,29 @@ Bookmarks
 ``⌘ + ⌥ + j/l``
    Jump forward and backward between bookmarks
 
+GitHub Copilot
+----------------
+
+``^ + /``
+   Accept Panel Suggestion at the Cursor
+
+``⌥ + ⌘ + .``
+   Debug Last Terminal Command
+
+``⌥ + ]``
+   Navigate to the Next Panel Suggestion
+
+``⌥ + [``
+   Navigate to the Previous Panel Suggestion
+
+``^ + Enter``
+   Open Completions Panel
+
+``⌥ + \``
+   Trigger Inline Suggestion
+
+``^ + ⌘ + I``
+   Toggle Copilot Chat
 
 Command Palette
 =========================
