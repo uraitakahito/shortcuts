@@ -26,11 +26,14 @@ Navigation
 ``⇧ + ⌘ + \``
    `Bracket matching <https://code.visualstudio.com/docs/editor/editingevolved#_bracket-matching>`_
 
+``⇧ + F12``
+   go to references
+
 multi-cursor / Selection
 =========================
 
-``⌘ + d``
-   select current word
+.. ``⌘ + d``
+..    select current word
 
 ``⇧ + ⌥ + Left(Right)``
    extend selection by word
