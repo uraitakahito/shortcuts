@@ -4,16 +4,23 @@ Build your docker image:
 % PROJECT=$(basename `pwd`) && docker image build -t $PROJECT-image . --build-arg user_id=`id -u` --build-arg group_id=`id -g`
 ```
 
-And run it:
+Run the Docker container:
 
 ```console
-% docker container run -it --rm --init --mount type=bind,src=`pwd`,dst=/app --name $PROJECT-container $PROJECT-image /bin/zsh
+% docker container run -d --rm --init --mount type=bind,src=`pwd`,dst=/app --name $PROJECT-container $PROJECT-image
 ```
 
-Run below commands inside the Docker containers:
+Use [fdshell](https://github.com/uraitakahito/dotfiles/blob/37c4142038c658c468ade085cbc8883ba0ce1cc3/zsh/myzshrc#L93-L101) to log in to Docker.
+
+```console
+% fdshell /bin/zsh
+```
+
+Run the following commands inside the Docker containers as needed:
 
 ```console
 % uv sync
 % uv run make html
-% open build/html/index.html
 ```
+
+Finally, open the `build/html/index.html`.
