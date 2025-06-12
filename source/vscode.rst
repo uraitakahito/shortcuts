@@ -154,6 +154,9 @@ GitHub Copilot
 ``^ + ⌘ + I``
    Toggle Copilot Chat
 
+``⌘ + Backspace``
+   `Undo requests <https://code.visualstudio.com/updates/v1_101#_chat-ux-improvements>`_
+
 Command Palette
 =========================
 
