@@ -47,11 +47,11 @@ multi-cursor / Selection
 Editing
 =========================
 
-``⌘ + x``
-   Cut line(empty selection)
+.. ``⌘ + x``
+..    Cut line(empty selection)
 
-``⌘ + c``
-   Copy line(empty selection)
+.. ``⌘ + c``
+..    Copy line(empty selection)
 
 ``⌘ + ⏎``
    insert line below
@@ -73,6 +73,12 @@ Window Management
 
 ``⌘ + ⇧ + ]``
    Move to previous terminal
+
+``⌥ + ⌘ + ⇦``
+   Move to previous editor
+
+``⌥ + ⌘ + ⇨``
+   Move to next editor
 
 
 Display
