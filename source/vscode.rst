@@ -137,7 +137,7 @@ Bookmarks
    Jump forward and backward between bookmarks
 
 GitHub Copilot
-----------------
+=========================
 
 ``^ + /``
    Accept Panel Suggestion at the Cursor
@@ -153,9 +153,6 @@ GitHub Copilot
 
 ``⌥ + [``
    Navigate to the Previous Panel Suggestion
-
-``^ + Enter``
-   Open Completions Panel
 
 ``^ + ⌘ + I``
    Toggle Copilot Chat
