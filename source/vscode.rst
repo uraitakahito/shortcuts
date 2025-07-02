@@ -172,6 +172,21 @@ Context Variables
 ``#terminalLastCommand``
    Last executed command and its result in the terminal
 
+``#codebase``
+   Analyzes highly relevant code and files from the entire current workspace and adds them as context for prompts.
+
+``#fetch``
+   Retrieves web page content from the specified URL and adds it to the context.
+
+``#<file or folder name>``
+   By entering a file or folder name after # (e.g., #src/main.js), you can explicitly add the contents of that file or folder as context for the chat.
+
+``#<symbol name>``
+   By entering a symbol name such as function name, class name, or variable name after # (e.g., #myFunction), it searches for the definition and reference locations of the corresponding symbol from files in the workspace and adds them as context.
+
+``#testFailure``
+   Adds information about tests that failed in the most recent test execution as context. This is useful for debugging test code and identifying areas that need fixing.
+
 Command Palette
 =========================
 
