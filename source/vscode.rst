@@ -160,6 +160,18 @@ GitHub Copilot
 ``⌘ + Backspace``
    `Undo requests <https://code.visualstudio.com/updates/v1_101#_chat-ux-improvements>`_
 
+Context Variables
+-------------------
+
+``#selection``
+   Selected text in the editor
+
+``#terminalSelection``
+   Selected text in the terminal
+
+``#terminalLastCommand``
+   Last executed command and its result in the terminal
+
 Command Palette
 =========================
 
