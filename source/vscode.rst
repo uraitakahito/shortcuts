@@ -142,6 +142,9 @@ GitHub Copilot
 ``^ + /``
    Accept Panel Suggestion at the Cursor
 
+``⌘ + ⇨``
+   Accept suggestion word by word
+
 ``⌥ + ⌘ + .``
    Debug Last Terminal Command
 
@@ -153,9 +156,6 @@ GitHub Copilot
 
 ``^ + Enter``
    Open Completions Panel
-
-``⌥ + \``
-   Trigger Inline Suggestion
 
 ``^ + ⌘ + I``
    Toggle Copilot Chat
