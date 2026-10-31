@@ -24,3 +24,14 @@ Run the following commands inside the Docker containers as needed:
 ```
 
 Finally, open the `build/html/index.html`.
+
+## Publishing
+
+Merging into `master` runs
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml), which builds the
+HTML with Sphinx and deploys it to GitHub Pages:
+
+https://uraitakahito.github.io/shortcuts/
+
+Pull requests against `master` run the same build without deploying, so a
+Sphinx warning or a broken toctree fails the check before merge.

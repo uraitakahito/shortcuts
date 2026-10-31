@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # ワークフローが参照する Action のメジャー更新を PR で知らせる
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
