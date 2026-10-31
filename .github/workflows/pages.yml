@@ -2,12 +2,12 @@ name: Deploy docs to GitHub Pages
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
-# master へのデプロイは直列・中断なし。PR のビルドは新しい push が来たら古いものを中断
+# main へのデプロイは直列・中断なし。PR のビルドは新しい push が来たら古いものを中断
 concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: ${{ github.event_name == 'pull_request' }}
