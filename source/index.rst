@@ -19,3 +19,4 @@ Keyboard shortcuts for Mac
    iterm2
    colab
    tmux
+   cmux
