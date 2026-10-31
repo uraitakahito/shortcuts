@@ -19,7 +19,7 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3   # v10 のような浮動メジャータグは無いので完全版で固定
       - run: uv sync --locked                                 # uv.lock どおりに入れる。ずれていたら失敗
       - run: uv run make html SPHINXOPTS="-W --keep-going"   # 警告をエラーにし、全部出してから止まる
       - uses: actions/upload-pages-artifact@v5
