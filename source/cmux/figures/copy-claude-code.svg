@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 282" width="852" height="282">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="281" rx="10"/>
+<g transform="translate(16 16)">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="arrowhead" d="M0 0 L10 5 L0 10 Z"/></marker><marker id="a-on" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="arrowhead on" d="M0 0 L10 5 L0 10 Z"/></marker></defs>
+<rect class="box" x="20" y="95" width="150" height="60" rx="8"/>
+<text class="box-t" x="95" y="121" text-anchor="middle">Drag</text>
+<text class="box-n" x="95" y="141" text-anchor="middle">in Claude Code</text>
+<line class="edge" x1="170" y1="125" x2="213" y2="125" marker-end="url(#a)"/>
+<rect class="box" x="215" y="95" width="110" height="60" rx="8"/>
+<text class="box-t" x="270" y="121" text-anchor="middle">cmux</text>
+<text class="box-n" x="270" y="141" text-anchor="middle">routes by ⇧</text>
+<path class="edge" d="M325 112 H357 V52 H388" marker-end="url(#a)"/>
+<path class="edge" d="M325 138 H357 V198 H388" marker-end="url(#a)"/>
+<rect class="box" x="390" y="20" width="210" height="64" rx="8"/>
+<text class="box-t" x="495" y="47" text-anchor="middle">Claude Code selects</text>
+<text class="box-n" x="495" y="67" text-anchor="middle">drag without ⇧</text>
+<rect class="box on" x="390" y="166" width="210" height="64" rx="8"/>
+<text class="box-t" x="495" y="193" text-anchor="middle">cmux selects</text>
+<text class="box-n" x="495" y="213" text-anchor="middle">drag holding ⇧</text>
+<path class="edge" d="M600 52 H745 V93" marker-end="url(#a)"/>
+<text class="arrow-t" x="672" y="44" text-anchor="middle">copied on release</text>
+<path class="edge on" d="M600 198 H745 V157" marker-end="url(#a-on)"/>
+<text class="key" x="672" y="218" text-anchor="middle">⌘C</text>
+<rect class="store" x="690" y="95" width="110" height="60" rx="8"/>
+<text class="box-t" x="745" y="121" text-anchor="middle">Clipboard</text>
+<text class="box-n" x="745" y="141" text-anchor="middle">⌘V anywhere</text>
+</g>
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 366" width="852" height="366">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="365" rx="10"/>
+<g transform="translate(16 16)">
+<text class="box-t" x="10" y="20">ドラッグ</text>
+<rect class="pane" x="10" y="30" width="250" height="104" rx="6"/>
+<rect class="sel" x="89.5" y="55" width="157.5" height="18"/>
+<rect class="sel" x="22" y="73" width="97.5" height="18"/>
+<text class="term" x="22" y="50" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="74.5" y="68" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="74.5" y="86" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="67" y="104" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="67" y="122" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(119.5 80)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="10" y="153">押した所から、離した所まで</text>
+<text class="box-t" x="285" y="20">ダブルクリック</text>
+<rect class="pane" x="285" y="30" width="250" height="104" rx="6"/>
+<rect class="sel" x="364.5" y="91" width="82.5" height="18"/>
+<text class="term" x="297" y="50" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="349.5" y="68" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="349.5" y="86" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="342" y="104" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="342" y="122" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(402 98)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="285" y="153">1 語（パスはひとまとまり）</text>
+<text class="box-t" x="560" y="20">トリプルクリック</text>
+<rect class="pane" x="560" y="30" width="250" height="104" rx="6"/>
+<rect class="sel" x="617" y="91" width="105" height="18"/>
+<text class="term" x="572" y="50" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="624.5" y="68" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="624.5" y="86" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="617" y="104" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="617" y="122" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(677 98)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="560" y="153">1 行（前後の空白は除く）</text>
+<text class="box-t" x="10" y="190">⌘ + トリプルクリック</text>
+<rect class="pane" x="10" y="200" width="250" height="104" rx="6"/>
+<rect class="sel" x="22" y="225" width="225" height="18"/>
+<rect class="sel" x="22" y="243" width="225" height="18"/>
+<rect class="sel" x="22" y="261" width="225" height="18"/>
+<rect class="sel" x="22" y="279" width="105" height="18"/>
+<text class="term" x="22" y="220" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="74.5" y="238" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="74.5" y="256" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="67" y="274" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="67" y="292" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(127 268)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="10" y="323">1 つのコマンドの出力</text>
+<text class="box-t" x="285" y="190">⌥ + ドラッグ</text>
+<rect class="pane" x="285" y="200" width="250" height="104" rx="6"/>
+<rect class="sel" x="342" y="225" width="15" height="18"/>
+<rect class="sel" x="342" y="243" width="15" height="18"/>
+<rect class="sel" x="342" y="261" width="15" height="18"/>
+<rect class="sel" x="342" y="279" width="15" height="18"/>
+<text class="term" x="297" y="220" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="349.5" y="238" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="349.5" y="256" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="342" y="274" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="342" y="292" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(357 286)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="285" y="323">四角い範囲（数字の列だけ）</text>
+<text class="box-t" x="560" y="190">⇧ + クリック</text>
+<rect class="pane" x="560" y="200" width="250" height="104" rx="6"/>
+<rect class="sel" x="639.5" y="225" width="157.5" height="18"/>
+<rect class="sel" x="572" y="243" width="225" height="18"/>
+<rect class="sel" x="572" y="261" width="105" height="18"/>
+<text class="term" x="572" y="220" textLength="120" lengthAdjust="spacing">% wc -l src/*.ts</text>
+<text class="term" x="624.5" y="238" textLength="97.5" lengthAdjust="spacing">4 src/main.ts</text>
+<text class="term" x="624.5" y="256" textLength="90" lengthAdjust="spacing">3 src/sum.ts</text>
+<text class="term" x="617" y="274" textLength="105" lengthAdjust="spacing">86 src/todo.ts</text>
+<text class="term" x="617" y="292" textLength="60" lengthAdjust="spacing">93 total</text>
+<path class="ptr" transform="translate(677 268)" d="M0 0 V14 L3.6 10.6 L6.2 16.2 L8.6 15.2 L6.1 9.7 H10.8 Z"/>
+<text class="box-n" x="560" y="323">選び始めた所から、ここまで</text>
+</g>
+</svg>
