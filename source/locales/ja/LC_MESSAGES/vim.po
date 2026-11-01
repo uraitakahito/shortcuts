@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Vim"
+msgstr "Vim"
+
+msgid "Editing"
+msgstr "編集"
+
+msgid "Insert text before the cursor [count] times."
+msgstr "カーソルの前にテキストを [count] 回挿入"
+
+msgid "Insert text before the first non-blank in the line [count] times."
+msgstr "行の最初の空白でない文字の前に、テキストを [count] 回挿入"
+
+msgid ""
+"Appent text after the cursor [count] times. If the cursor is in the first"
+" column of an empty line Insert starts there."
+msgstr "カーソルの後ろにテキストを [count] 回追加。空行の 1 列目にカーソルがあるときは、そこから挿入を始める"
+
+msgid "Appent text at the end of the line [count] times."
+msgstr "行末にテキストを [count] 回追加"
+
+msgid "Begin a new line below the cursor and insert text, repeat [count] times."
+msgstr "カーソルの下に新しい行を作ってテキストを挿入。[count] 回繰り返す"
+
+msgid "Begin a new line above the cursor and insert text, repeat [count] times."
+msgstr "カーソルの上に新しい行を作ってテキストを挿入。[count] 回繰り返す"
+
+msgid "Replace one character."
+msgstr "1 文字を置き換える"
+
+msgid "Undo [count] changes."
+msgstr "変更を [count] 回取り消す"
+
+msgid "Redo [count] changes which were undone."
+msgstr "取り消した変更を [count] 回やり直す"
+
+msgid "Insert Mode"
+msgstr "挿入モード"
+
+msgid ""
+"`Delete word before the cursor during insert mode. "
+"<https://knowledge.sakura.ad.jp/22465/>`_"
+msgstr "`挿入モードで、カーソルの前の単語を削除 <https://knowledge.sakura.ad.jp/22465/>`_"
+
+msgid "Execute one command, return to Insert mode."
+msgstr "コマンドを 1 つ実行して、挿入モードに戻る"
+
+msgid "indent (move right) line one shiftwidth during insert mode."
+msgstr "挿入モードで、行を shiftwidth 1 つ分インデントする（右へずらす）"
+
+msgid "Delete one shiftwidth of indent at the start of the current line."
+msgstr "現在の行の先頭のインデントを、shiftwidth 1 つ分削除"
+
+msgid "Delete all entered characters before the cursor in the current line."
+msgstr "現在の行で、カーソルより前に入力した文字をすべて削除"
+
+msgid "Operator"
+msgstr "オペレーター"
+
+msgid "Delete {motion} text [into register x] and start insert."
+msgstr "{motion} の範囲のテキストを [レジスタ x に] 削除して、挿入を始める"
+
+msgid "Delete text that {motion} moves over [into register x]."
+msgstr "{motion} で動く範囲のテキストを [レジスタ x に] 削除"
+
+msgid "Yank(copy) {motion} text [into register x]."
+msgstr "{motion} の範囲のテキストを [レジスタ x に] ヤンク（コピー）"
+
+msgid "Yank(copy) [count] lines [into register x]."
+msgstr "[count] 行を [レジスタ x に] ヤンク（コピー）"
+
+msgid "Make {motion} text uppercase."
+msgstr "{motion} の範囲のテキストを大文字にする"
+
+msgid "Make {motion} text lowercase."
+msgstr "{motion} の範囲のテキストを小文字にする"
+
+msgid "Shift {motion} lines one 'shiftwidth' rightwards."
+msgstr "{motion} の範囲の行を 'shiftwidth' 1 つ分右へずらす"
+
+msgid "Shift {motion} lines one 'shiftwidth' leftwards."
+msgstr "{motion} の範囲の行を 'shiftwidth' 1 つ分左へずらす"
+
+msgid "Motion"
+msgstr "移動"
+
+msgid "To the first character of the line."
+msgstr "行の最初の文字へ"
+
+msgid "Start of line(after whitespace)"
+msgstr "行頭（空白の後）"
+
+msgid "End of line"
+msgstr "行末"
+
+msgid "Goto line [count], default first line."
+msgstr "[count] 行目へ。省略すると最初の行"
+
+msgid "Goto line [count], default last line."
+msgstr "[count] 行目へ。省略すると最後の行"
+
+msgid "Previous/next word"
+msgstr "前/次の単語"
+
+msgid "Go forward/backward to character {char}"
+msgstr "文字 {char} まで、前方/後方へ移動"
+
+msgid "Repeat latest f, t, F or T [count] times."
+msgstr "直前の f、t、F、T を [count] 回繰り返す"
+
+msgid "Repeat latest f, t, F or T in opposite direction [count] times."
+msgstr "直前の f、t、F、T を逆方向に [count] 回繰り返す"
+
+msgid ""
+"Find the next item in this line after or under the cursor and ump to its "
+"match. Items can be: ([{}])"
+msgstr "カーソルの位置か、その後ろにあるこの行の括弧を見つけ、対応する括弧へ移動。対象は ([{}])"
+
+msgid "Visual mode"
+msgstr "ビジュアルモード"
+
+msgid "Start Visual mode per character."
+msgstr "文字単位でビジュアルモードを始める"
+
+msgid "Start Visual mode per linewise."
+msgstr "行単位でビジュアルモードを始める"
+
+msgid "Start Visual mode blockwise."
+msgstr "矩形でビジュアルモードを始める"
+
+msgid "Clipboard"
+msgstr "クリップボード"
+
+msgid "Yank {motion} text [into register x ]."
+msgstr "{motion} の範囲のテキストを [レジスタ x に] ヤンク"
+
+msgid "Yank [count] lines [into register x ] linewise."
+msgstr "[count] 行を行単位で [レジスタ x に] ヤンク"
+
+msgid "Text objects"
+msgstr "テキストオブジェクト"
+
+msgid "Usage"
+msgstr "使い方"
+
+msgid ""
+"Text objects let you operate (with an operator) in or aound text "
+"blocks(objects)."
+msgstr "テキストオブジェクトを使うと、テキストのまとまり（オブジェクト）の内側や周りを、オペレーターで操作できる"
+
+msgid "v"
+msgstr "v"
+
+msgid "i"
+msgstr "i"
+
+msgid "p"
+msgstr "p"
+
+msgid "[i]nside or [a]round"
+msgstr "[i]nside（内側）か [a]round（周り）"
+
+msgid "Text object"
+msgstr "テキストオブジェクト"
+
+msgid "Paragraph"
+msgstr "段落"
+
+msgid "Word"
+msgstr "単語"
+
+msgid "Sentence"
+msgstr "文"
+
+msgid "A [], (), {} or <>  block"
+msgstr "[]、()、{}、<> のブロック"
+
+msgid "A quoted string"
+msgstr "引用符で囲んだ文字列"
+
+msgid "Window commands"
+msgstr "ウィンドウのコマンド"
+
+msgid "Go to N next window (wrap around)"
+msgstr "N 個先のウィンドウへ移動（最後まで行くと最初に戻る）"
+
+msgid "Misc"
+msgstr "その他"
+
+msgid "`Terminal window support. <https://vimhelp.org/terminal.txt.html>`_"
+msgstr "`ターミナルウィンドウ <https://vim-jp.org/vimdoc-ja/terminal.html>`_"
+
+msgid ""
+"Open a window and display the help file in read-only, additionally jump "
+"to the tag {subject}. `Prepend something to specify the context. e.g. "
+"Insert mode command is :help i_<Esc> <https://vimhelp.org/>`_"
+msgstr ""
+"ウィンドウを開いてヘルプを読み取り専用で表示し、タグ {subject} へ移動。`前に文字を付けて文脈を指定する。たとえば挿入モードのコマンドは"
+" :help i_<Esc> <https://vim-jp.org/vimdoc-ja/>`_"
+
+msgid ""
+"Simple changes can be repeated with the \".\" command. Without a count, "
+"the count of the last change is used."
+msgstr "簡単な変更は「.」コマンドで繰り返せる。回数を省くと、直前の変更の回数を使う"
+
+msgid "Replace foo with bar in whole document."
+msgstr "文書全体で foo を bar に置き換える"
+
+msgid "`Vim cheatsheet <https://devhints.io/vim>`_"
+msgstr "`Vim のチートシート（英語） <https://devhints.io/vim>`_"
+

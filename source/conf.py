@@ -25,3 +25,28 @@ language = 'en'
 
 html_theme = 'scrolls'
 html_static_path = ['_static']
+html_css_files = ['lang-switch.css']
+
+# -- Options for internationalization ----------------------------------------
+# Japanese pages are built with -D language=ja (make html-ja). Catalogs live in
+# source/locales, Sphinx's default locale_dirs.
+
+gettext_location = False  # keep .po diffs to text changes, not line numbers
+
+from docutils import nodes
+from sphinx.transforms import SphinxTransform
+
+
+class SkipLiteralOnlyTerms(SphinxTransform):
+    """Keep key-only terms such as ``⌘ + d`` out of the translation catalogs."""
+
+    default_priority = 10  # before sphinx.transforms.i18n.Locale (20)
+
+    def apply(self, **kwargs):
+        for term in self.document.findall(nodes.term):
+            if len(term.children) == 1 and isinstance(term[0], nodes.literal):
+                term['translatable'] = False
+
+
+def setup(app):
+    app.add_transform(SkipLiteralOnlyTerms)

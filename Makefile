@@ -18,3 +18,17 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+# -- Translation ---------------------------------------------------------------
+# po:      extract messages and update source/locales/ja/LC_MESSAGES/*.po
+# html-ja: build the Japanese pages into build/html/ja (own doctree cache)
+# site:    build both languages, as the Pages workflow does
+.PHONY: po html-ja site
+po:
+	@$(SPHINXBUILD) -M gettext "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+	@sphinx-intl update -p "$(BUILDDIR)/gettext" -l ja -d "$(SOURCEDIR)/locales"
+
+html-ja:
+	@$(SPHINXBUILD) -b html -D language=ja -d "$(BUILDDIR)/doctrees-ja" "$(SOURCEDIR)" "$(BUILDDIR)/html/ja" $(SPHINXOPTS) $(O)
+
+site: html html-ja

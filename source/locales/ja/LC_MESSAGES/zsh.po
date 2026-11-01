@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Zsh"
+msgstr "Zsh"
+
+msgid "Navigation"
+msgstr "移動"
+
+msgid "Move the cursor to beginning/end of the line"
+msgstr "カーソルを行頭/行末へ移動"
+
+msgid "Move the cursor one word backward(forward)"
+msgstr "カーソルを 1 語左（右）へ移動"
+
+msgid "Editing"
+msgstr "編集"
+
+msgid "Cut till end"
+msgstr "行末まで切り取り"
+
+msgid "Delete whole line"
+msgstr "行全体を削除"
+
+msgid "Cut previous word"
+msgstr "前の単語を切り取り"
+
+msgid "Paste"
+msgstr "貼り付け"
+
+msgid "Undo"
+msgstr "取り消し"
+
+msgid "History"
+msgstr "履歴"
+
+msgid "History search"
+msgstr "履歴を検索"
+
