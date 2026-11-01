@@ -1,0 +1,3 @@
+/* The switcher sits on the theme's dark top bar. */
+div.lang-switch { text-align: right; padding: 6px 16px 0; font-size: 13px; }
+div.lang-switch a { color: #ffffff; }

@@ -25,6 +25,7 @@ language = 'en'
 
 html_theme = 'scrolls'
 html_static_path = ['_static']
+html_css_files = ['lang-switch.css']
 
 # -- Options for internationalization ----------------------------------------
 # Japanese pages are built with -D language=ja (make html-ja). Catalogs live in
