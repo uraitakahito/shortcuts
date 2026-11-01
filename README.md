@@ -40,10 +40,12 @@ before merge.
 
 ## Translating
 
-English text lives in `source/*.rst`. Japanese text lives in
-`source/locales/ja/LC_MESSAGES/*.po`, one file per page.
+English text lives in `source/`. Japanese text lives in
+`source/locales/ja/LC_MESSAGES/<app>.po`, one file per app folder.
+`sphinx.po` holds the theme's own strings; it is written by hand and
+`make po` leaves it alone.
 
-After editing a `.rst` file, refresh the catalogs and translate the new
+After editing a page, refresh the catalogs and translate the new
 `msgstr ""` entries:
 
 ```console
@@ -55,3 +57,18 @@ translated. Keep inline markup, such as literals and links, in the translation.
 
 Run `uv run make clean` after changing a file in `source/_static`, because an
 incremental build keeps the old copy.
+
+## Writing a guide
+
+Each app has its own folder in `source/`. The shortcut list is
+`source/<app>/index.rst`. Guides sit next to it as Markdown (MyST) files and
+are listed in the `Guides` toctree at the end of the list.
+
+- Write the guide in English, then run `uv run make po` and translate the new
+  messages in the app's catalog.
+- Write keys with the `{kbd}` role and the same symbols as the lists, for
+  example `` {kbd}`⌘+⇧+M` ``. Text that is only keys stays out of the catalogs.
+- Draw figures as SVG files with their own white background, so they read in
+  both the light and the dark theme. Put the Japanese figure next to the
+  English one as `<name>.ja.svg`; the Japanese build uses it automatically.
+
