@@ -1,5 +1,5 @@
-# Debian 12.11
-FROM debian:bookworm-20250520
+# Debian 13 (trixie)
+FROM debian:trixie-20261027
 
 ARG user_name=developer
 ARG user_id
@@ -7,7 +7,7 @@ ARG group_id
 ARG dotfiles_repository="https://github.com/uraitakahito/dotfiles.git"
 ARG features_repository="https://github.com/uraitakahito/features.git"
 ARG extra_utils_repository="https://github.com/uraitakahito/extra-utils.git"
-ARG variant=3.12.5
+ARG variant=3.14
 
 #
 # Git
@@ -42,7 +42,7 @@ RUN cd /usr/src && \
   git clone --depth 1 ${extra_utils_repository} && \
   ADDEZA=true \
   UPGRADEPACKAGES=false \
-    /usr/src/extra-utils/install.sh
+    /usr/src/extra-utils/utils/install.sh
 
 #
 # Install uv
