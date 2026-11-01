@@ -56,7 +56,8 @@ class SkipKeyOnlyText(SphinxTransform):
 
     def apply(self, **kwargs):
         for node in self.document.findall(lambda n: isinstance(n, (nodes.term, nodes.paragraph))):
-            parts = [c for c in node.children if not (isinstance(c, nodes.Text) and not c.strip())]
+            # Sphinx 9 writes {kbd}`⌘+C` as flat literals with the separators as text
+            parts = [c for c in node.children if not (isinstance(c, nodes.Text) and not c.strip(' +-^'))]
             if parts and all(isinstance(c, nodes.literal) for c in parts):
                 node['translatable'] = False
 
