@@ -1,0 +1,30 @@
+# Japanese for the Furo strings that Sphinx's own catalog does not translate.
+# Not generated: make po leaves this file alone.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Language: ja\n"
+
+msgid "Edit this page"
+msgstr "このページを編集"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "On this page"
+msgstr "このページ"
+
+msgid "Previous"
+msgstr "前へ"
+
+msgid "View this page"
+msgstr "このページのソースを表示"
+
+msgid "Back to top"
+msgstr "ページの先頭へ"
+
+msgid "Please activate JavaScript to enable the search functionality."
+msgstr "検索を使うには JavaScript を有効にしてください。"

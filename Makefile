@@ -29,6 +29,6 @@ po:
 	@sphinx-intl update -p "$(BUILDDIR)/gettext" -l ja -d "$(SOURCEDIR)/locales"
 
 html-ja:
-	@$(SPHINXBUILD) -b html -D language=ja -d "$(BUILDDIR)/doctrees-ja" "$(SOURCEDIR)" "$(BUILDDIR)/html/ja" $(SPHINXOPTS) $(O)
+	@$(SPHINXBUILD) -b html -D language=ja -D html_title="Mac のキーボードショートカット" -d "$(BUILDDIR)/doctrees-ja" "$(SOURCEDIR)" "$(BUILDDIR)/html/ja" $(SPHINXOPTS) $(O)
 
 site: html html-ja

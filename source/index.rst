@@ -10,13 +10,13 @@ Keyboard shortcuts for Mac
    :maxdepth: 2
    :caption: Contents:
 
-   vscode
-   slack
-   chrome
-   vim
-   zsh
-   alfred
-   iterm2
-   colab
-   tmux
-   cmux
+   vscode/index
+   slack/index
+   chrome/index
+   vim/index
+   zsh/index
+   alfred/index
+   iterm2/index
+   colab/index
+   tmux/index
+   cmux/index

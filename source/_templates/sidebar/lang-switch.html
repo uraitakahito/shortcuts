@@ -1,0 +1,10 @@
+{#- Link to the same page in the other language. The Japanese build lives in ja/,
+    so climb out of the page's own folders first. -#}
+{%- set up = '../' * pagename.count('/') %}
+<div class="sidebar-lang-switch">
+  {%- if language == 'ja' %}
+  <a href="{{ up }}../{{ pagename }}{{ file_suffix }}" hreflang="en" lang="en">English</a>
+  {%- else %}
+  <a href="{{ up }}ja/{{ pagename }}{{ file_suffix }}" hreflang="ja" lang="ja">日本語</a>
+  {%- endif %}
+</div>
