@@ -1,12 +1,13 @@
 {%- extends "!layout.html" %}
-{#- Link each page to the same page in the other language. Pages sit at the top level,
-    so the Japanese build lives one directory down, in ja/. -#}
+{#- Link each page to the same page in the other language. The Japanese build lives in ja/,
+    so climb out of the page's own folders first. -#}
+{%- set up = '../' * pagename.count('/') %}
 {%- block header %}
 <div class="lang-switch">
   {%- if language == 'ja' %}
-  <a href="../{{ pagename }}{{ file_suffix }}" hreflang="en" lang="en">English</a>
+  <a href="{{ up }}../{{ pagename }}{{ file_suffix }}" hreflang="en" lang="en">English</a>
   {%- else %}
-  <a href="ja/{{ pagename }}{{ file_suffix }}" hreflang="ja" lang="ja">日本語</a>
+  <a href="{{ up }}ja/{{ pagename }}{{ file_suffix }}" hreflang="ja" lang="ja">日本語</a>
   {%- endif %}
 </div>
 {%- endblock %}
