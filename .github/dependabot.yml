@@ -18,3 +18,9 @@ updates:
       python-security:
         applies-to: security-updates
         patterns: ["*"]
+
+  # Dockerfile のベースイメージの日付タグを毎月上げる
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: monthly
