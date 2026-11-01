@@ -1,7 +1,5 @@
 # Selecting text with the keyboard (copy mode)
 
-This guide shows how to select text in a cmux terminal with the keyboard only and copy it to the clipboard, using cmux's copy mode. For selecting with the mouse, see [Copying text from the terminal](copy.md).
-
 :::{admonition} In short
 :class: tip
 
