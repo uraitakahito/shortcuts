@@ -20,38 +20,38 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Zsh"
-msgstr ""
+msgstr "Zsh"
 
 msgid "Navigation"
-msgstr ""
+msgstr "移動"
 
 msgid "Move the cursor to beginning/end of the line"
-msgstr ""
+msgstr "カーソルを行頭/行末へ移動"
 
 msgid "Move the cursor one word backward(forward)"
-msgstr ""
+msgstr "カーソルを 1 語左（右）へ移動"
 
 msgid "Editing"
-msgstr ""
+msgstr "編集"
 
 msgid "Cut till end"
-msgstr ""
+msgstr "行末まで切り取り"
 
 msgid "Delete whole line"
-msgstr ""
+msgstr "行全体を削除"
 
 msgid "Cut previous word"
-msgstr ""
+msgstr "前の単語を切り取り"
 
 msgid "Paste"
-msgstr ""
+msgstr "貼り付け"
 
 msgid "Undo"
-msgstr ""
+msgstr "取り消し"
 
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 msgid "History search"
-msgstr ""
+msgstr "履歴を検索"
 

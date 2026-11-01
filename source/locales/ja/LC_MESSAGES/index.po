@@ -20,8 +20,8 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Contents:"
-msgstr ""
+msgstr "目次:"
 
 msgid "Keyboard shortcuts for Mac"
-msgstr ""
+msgstr "Mac のキーボードショートカット"
 

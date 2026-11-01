@@ -20,17 +20,17 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Google Colaboratory"
-msgstr ""
+msgstr "Google Colaboratory"
 
 msgid "To create a new cell below"
-msgstr ""
+msgstr "下に新しいセルを作る"
 
 msgid "To create a new cell above"
-msgstr ""
+msgstr "上に新しいセルを作る"
 
 msgid "To delete a cell"
-msgstr ""
+msgstr "セルを削除"
 
 msgid "Run all cells in the notebook"
-msgstr ""
+msgstr "ノートブックのすべてのセルを実行"
 

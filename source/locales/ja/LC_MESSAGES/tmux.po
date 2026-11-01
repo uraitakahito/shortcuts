@@ -20,20 +20,20 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "tmux"
-msgstr ""
+msgstr "tmux"
 
 msgid "Copy Mode"
-msgstr ""
+msgstr "コピーモード"
 
 msgid "enter copy mode"
-msgstr ""
+msgstr "コピーモードに入る"
 
 msgid "start selection"
-msgstr ""
+msgstr "選択を始める"
 
 msgid "move cursor forward one word at a time"
-msgstr ""
+msgstr "カーソルを次の単語へ移動"
 
 msgid "move cursor backward one word at a time"
-msgstr ""
+msgstr "カーソルを前の単語へ移動"
 

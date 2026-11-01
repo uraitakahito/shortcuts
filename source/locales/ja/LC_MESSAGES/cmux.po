@@ -20,444 +20,446 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "cmux"
-msgstr ""
+msgstr "cmux"
 
 msgid ""
 "Default shortcuts of cmux 0.65.2 (113). See `Keyboard Shortcuts "
 "<https://cmux.com/docs/keyboard-shortcuts>`_ for the full list."
 msgstr ""
+"cmux 0.65.2 (113) の既定のショートカット。すべての一覧は `キーボードショートカット "
+"<https://cmux.com/ja/docs/keyboard-shortcuts>`_ を参照"
 
 msgid "App"
-msgstr ""
+msgstr "アプリ"
 
 msgid "settings"
-msgstr ""
+msgstr "設定"
 
 msgid "reload configuration"
-msgstr ""
+msgstr "構成を再読み込み"
 
 msgid "show/hide all cmux windows (system-wide hotkey)"
-msgstr ""
+msgstr "すべての cmux ウインドウを表示/非表示（システム全体のホットキー）"
 
 msgid "global search (when cmux is active)"
-msgstr ""
+msgstr "グローバル検索（cmux が前面にあるとき）"
 
 msgid "command palette"
-msgstr ""
+msgstr "コマンドパレット"
 
 msgid "show agent inbox"
-msgstr ""
+msgstr "エージェント受信トレイを表示"
 
 msgid "command palette next result (in the command palette)"
-msgstr ""
+msgstr "コマンドパレットの次の結果（コマンドパレット内）"
 
 msgid "command palette previous result (in the command palette)"
-msgstr ""
+msgstr "コマンドパレットの前の結果（コマンドパレット内）"
 
 msgid "new window"
-msgstr ""
+msgstr "新規ウインドウ"
 
 msgid "close window"
-msgstr ""
+msgstr "ウインドウを閉じる"
 
 msgid "toggle full screen"
-msgstr ""
+msgstr "フルスクリーンを切り替え"
 
 msgid "reopen previous session"
-msgstr ""
+msgstr "前回のセッションを再度開く"
 
 msgid "quit cmux"
-msgstr ""
+msgstr "cmux を終了"
 
 msgid "Workspaces"
-msgstr ""
+msgstr "ワークスペース"
 
 msgid "toggle left sidebar"
-msgstr ""
+msgstr "左サイドバーを切り替え"
 
 msgid "toggle right sidebar"
-msgstr ""
+msgstr "右サイドバーを切り替え"
 
 msgid "new local workspace"
-msgstr ""
+msgstr "新規ローカルワークスペース"
 
 msgid "new browser workspace (the first surface is a browser pane)"
-msgstr ""
+msgstr "新規ブラウザワークスペース（最初のサーフェスがブラウザペインになる）"
 
 msgid "save current workspace layout as a template"
-msgstr ""
+msgstr "現在のワークスペースレイアウトをテンプレートとして保存"
 
 msgid "open folder"
-msgstr ""
+msgstr "フォルダを開く"
 
 msgid "go to workspace (workspace switcher)"
-msgstr ""
+msgstr "ワークスペースへ移動（ワークスペーススイッチャー）"
 
 msgid "next workspace"
-msgstr ""
+msgstr "次のワークスペース"
 
 msgid "previous workspace"
-msgstr ""
+msgstr "前のワークスペース"
 
 msgid "move workspace up"
-msgstr ""
+msgstr "ワークスペースを上へ移動"
 
 msgid "move workspace down"
-msgstr ""
+msgstr "ワークスペースを下へ移動"
 
 msgid "focus back (outside browser panes)"
-msgstr ""
+msgstr "フォーカスを戻す（ブラウザペインの外）"
 
 msgid "focus forward (outside browser panes)"
-msgstr ""
+msgstr "フォーカスを進める（ブラウザペインの外）"
 
 msgid "select workspace 1-8"
-msgstr ""
+msgstr "ワークスペース 1-8 を選択"
 
 msgid "select the last workspace"
-msgstr ""
+msgstr "最後のワークスペースを選択"
 
 msgid "rename workspace"
-msgstr ""
+msgstr "ワークスペース名を変更"
 
 msgid "edit workspace description"
-msgstr ""
+msgstr "ワークスペースの説明を編集"
 
 msgid "mark workspace as done"
-msgstr ""
+msgstr "ワークスペースを完了にする"
 
 msgid "cycle workspace status one lane forward"
-msgstr ""
+msgstr "ワークスペースのステータスを 1 つ先へ切り替え"
 
 msgid "new empty workspace group"
-msgstr ""
+msgstr "空のワークスペースグループを作成"
 
 msgid "group selected workspaces"
-msgstr ""
+msgstr "選択したワークスペースをグループ化"
 
 msgid "collapse or expand focused workspace group"
-msgstr ""
+msgstr "フォーカス中のワークスペースグループを折りたたみ/展開"
 
 msgid ""
 "focus the workspace sidebar (↑/↓ select, Return or Esc goes back to the "
 "terminal)"
-msgstr ""
+msgstr "ワークスペースサイドバーにフォーカス（↑/↓ で選び、Return か Esc でターミナルに戻る）"
 
 msgid "toggle right-sidebar focus"
-msgstr ""
+msgstr "右サイドバーのフォーカスを切り替え"
 
 msgid "close workspace"
-msgstr ""
+msgstr "ワークスペースを閉じる"
 
 msgid "Surfaces"
-msgstr ""
+msgstr "サーフェス"
 
 msgid "new surface"
-msgstr ""
+msgstr "新規サーフェス"
 
 msgid "next surface"
-msgstr ""
+msgstr "次のサーフェス"
 
 msgid "previous surface"
-msgstr ""
+msgstr "前のサーフェス"
 
 msgid "reorder surface left"
-msgstr ""
+msgstr "サーフェスを左へ並べ替え"
 
 msgid "reorder surface right"
-msgstr ""
+msgstr "サーフェスを右へ並べ替え"
 
 msgid "move surface to previous pane"
-msgstr ""
+msgstr "サーフェスを前のペインへ移動"
 
 msgid "move surface to next pane"
-msgstr ""
+msgstr "サーフェスを次のペインへ移動"
 
 msgid "move the surface to the pane in that direction"
-msgstr ""
+msgstr "サーフェスをその方向のペインへ移動"
 
 msgid "select surface 1-8"
-msgstr ""
+msgstr "サーフェス 1-8 を選択"
 
 msgid "select the last surface"
-msgstr ""
+msgstr "最後のサーフェスを選択"
 
 msgid "rename tab"
-msgstr ""
+msgstr "タブ名を変更"
 
 msgid "close tab"
-msgstr ""
+msgstr "タブを閉じる"
 
 msgid "close other tabs in pane"
-msgstr ""
+msgstr "ペイン内の他のタブを閉じる"
 
 msgid "reopen last closed"
-msgstr ""
+msgstr "最後に閉じた項目を再度開く"
 
 msgid "toggle terminal copy mode"
-msgstr ""
+msgstr "ターミナルコピーモードを切り替え"
 
 msgid "clear screen (keep scrollback)"
-msgstr ""
+msgstr "画面をクリア（スクロールバックを保持）"
 
 msgid "Split Panes"
-msgstr ""
+msgstr "分割ペイン"
 
 msgid "focus the pane in that direction"
-msgstr ""
+msgstr "その方向のペインにフォーカス"
 
 msgid "focus pane 1-8"
-msgstr ""
+msgstr "ペイン 1-8 にフォーカス"
 
 msgid "focus the last pane"
-msgstr ""
+msgstr "最後のペインにフォーカス"
 
 msgid "split right"
-msgstr ""
+msgstr "右に分割"
 
 msgid "split down"
-msgstr ""
+msgstr "下に分割"
 
 msgid "new pane with auto layout (retiles all panes)"
-msgstr ""
+msgstr "新しいペイン（自動レイアウト）（すべてのペインを並べ直す）"
 
 msgid "split browser right"
-msgstr ""
+msgstr "右にブラウザ分割"
 
 msgid "split browser down"
-msgstr ""
+msgstr "下にブラウザ分割"
 
 msgid "toggle pane zoom"
-msgstr ""
+msgstr "ペインズームを切り替え"
 
 msgid "increase font size for every terminal in the selected workspace"
-msgstr ""
+msgstr "選択中のワークスペース内の全ターミナルのフォントサイズを大きくする"
 
 msgid "decrease font size for every terminal in the selected workspace"
-msgstr ""
+msgstr "選択中のワークスペース内の全ターミナルのフォントサイズを小さくする"
 
 msgid "reset font size for every terminal in the selected workspace"
-msgstr ""
+msgstr "選択中のワークスペース内の全ターミナルのフォントサイズをリセットする"
 
 msgid "equalize split sizes"
-msgstr ""
+msgstr "分割サイズを均等にする"
 
 msgid "resize the pane left, right, up, or down"
-msgstr ""
+msgstr "ペインのサイズを左、右、上、下に変える"
 
 msgid "Browser"
-msgstr ""
+msgstr "ブラウザ"
 
 msgid "open browser"
-msgstr ""
+msgstr "ブラウザを開く"
 
 msgid "focus address bar"
-msgstr ""
+msgstr "アドレスバーにフォーカス"
 
 msgid "back (in a browser pane)"
-msgstr ""
+msgstr "戻る（ブラウザペイン内）"
 
 msgid "forward (in a browser pane)"
-msgstr ""
+msgstr "進む（ブラウザペイン内）"
 
 msgid "reload page (in a browser pane)"
-msgstr ""
+msgstr "ページを再読み込み（ブラウザペイン内）"
 
 msgid "hard refresh page (in a browser pane)"
-msgstr ""
+msgstr "ページを強制再読み込み（ブラウザペイン内）"
 
 msgid "zoom in"
-msgstr ""
+msgstr "拡大"
 
 msgid "zoom out"
-msgstr ""
+msgstr "縮小"
 
 msgid "actual size"
-msgstr ""
+msgstr "実寸表示"
 
 msgid "toggle browser developer tools"
-msgstr ""
+msgstr "ブラウザ開発者ツールを切り替え"
 
 msgid "show browser JavaScript console"
-msgstr ""
+msgstr "ブラウザ JavaScript コンソールを表示"
 
 msgid "enter browser focus mode (the page gets shortcuts first)"
-msgstr ""
+msgstr "ブラウザフォーカスモードに入る（ページがショートカットを先に受け取る）"
 
 msgid ""
 "leave browser focus mode (press twice within 1.6 seconds; the first Esc "
 "also reaches the page)"
-msgstr ""
+msgstr "ブラウザフォーカスモードを抜ける（1.6 秒以内に 2 回押す。1 回目の Esc はページにも届く）"
 
 msgid "toggle browser design mode (select and edit elements visually)"
-msgstr ""
+msgstr "ブラウザデザインモードを切り替え（要素を選んで見た目のまま編集する）"
 
 msgid "toggle React Grab (in a browser pane)"
-msgstr ""
+msgstr "React Grab を切り替え（ブラウザペイン内）"
 
 msgid "Find"
-msgstr ""
+msgstr "検索"
 
 msgid "find"
-msgstr ""
+msgstr "検索"
 
 msgid "find in directory"
-msgstr ""
+msgstr "ディレクトリ内を検索"
 
 msgid "find next"
-msgstr ""
+msgstr "次を検索"
 
 msgid "find previous"
-msgstr ""
+msgstr "前を検索"
 
 msgid "hide find bar"
-msgstr ""
+msgstr "検索バーを隠す"
 
 msgid "use selection for find"
-msgstr ""
+msgstr "選択範囲で検索"
 
 msgid "Notifications"
-msgstr ""
+msgstr "通知"
 
 msgid "show notifications"
-msgstr ""
+msgstr "通知を表示"
 
 msgid "jump to latest unread"
-msgstr ""
+msgstr "最新の未読へ移動"
 
 msgid "jump to the surface where you last sent an agent prompt"
-msgstr ""
+msgstr "最後にエージェントへプロンプトを送ったサーフェスへ移動"
 
 msgid "toggle current item unread state"
-msgstr ""
+msgstr "現在の項目の未読状態を切り替え"
 
 msgid "mark current item as oldest unread and jump to the next latest unread"
-msgstr ""
+msgstr "現在の項目を最古の未読にして次の最新未読へ移動"
 
 msgid "flash focused panel"
-msgstr ""
+msgstr "フォーカス中のパネルをフラッシュ"
 
 msgid "Copy and Paste"
-msgstr ""
+msgstr "コピーと貼り付け"
 
 msgid ""
 "copy the selection to the clipboard (selecting alone does not copy; ``⌃ +"
 " c`` stops the running command instead)"
-msgstr ""
+msgstr "選択範囲をクリップボードにコピー（選んだだけではコピーされない。``⌃ + c`` はコピーではなく、実行中のコマンドを止める）"
 
 msgid ""
 "paste the last selection inside cmux (middle click does the same; other "
 "apps cannot paste it)"
-msgstr ""
+msgstr "最後に選んだ文字を cmux の中に貼り付け（中クリックでも同じ。ほかのアプリには貼れない）"
 
 msgid ""
 "select a word (``/`` and ``.`` do not split words, so a path such as "
 "``src/todo.ts`` is one word)"
-msgstr ""
+msgstr "1 語を選択（``/`` と ``.`` では区切らないので、``src/todo.ts`` のようなパスは 1 語になる）"
 
 msgid "select a line"
-msgstr ""
+msgstr "1 行を選択"
 
 msgid ""
 "select the whole output of one command (needs shell integration, which "
 "cmux sets up for zsh)"
-msgstr ""
+msgstr "1 つのコマンドの出力全体を選択（シェル統合が必要。zsh では cmux が設定する）"
 
 msgid "select a rectangle, such as one column of a table"
-msgstr ""
+msgstr "四角い範囲を選択（表の 1 列だけを選ぶときなど）"
 
 msgid "extend or shrink the selection to the clicked point"
-msgstr ""
+msgstr "選択範囲を、クリックした位置まで広げる、または縮める"
 
 msgid "move the end of the selection (only while text is selected)"
-msgstr ""
+msgstr "選択範囲の終わりを動かす（文字を選んでいるときだけ）"
 
 msgid ""
 "select with cmux inside apps that use the mouse, such as Claude Code, "
 "vim, and tmux"
-msgstr ""
+msgstr "Claude Code、vim、tmux のようにマウスを使うアプリの中で、cmux の選択を使う"
 
 msgid "Claude Code"
-msgstr ""
+msgstr "Claude Code"
 
 msgid ""
 "select text; it is copied to the clipboard when you release the mouse "
 "button (Copy on select in /config)"
-msgstr ""
+msgstr "文字を選択。マウスのボタンを離すとクリップボードにコピーされる（/config の Copy on select）"
 
 msgid "copy the selection; with nothing selected, interrupt as usual"
-msgstr ""
+msgstr "選択範囲をコピー。何も選んでいなければ、いつもどおり中断"
 
 msgid ""
 "write the whole conversation into the terminal as plain text, so cmux "
 "selection and copy mode can reach it"
-msgstr ""
+msgstr "会話全体をターミナルに通常の文字として書き出し、cmux の選択やコピーモードで扱えるようにする"
 
 msgid "Copy Mode"
-msgstr ""
+msgstr "コピーモード"
 
 msgid "enter or leave copy mode"
-msgstr ""
+msgstr "コピーモードに入る、または抜ける"
 
 msgid "leave copy mode without copying"
-msgstr ""
+msgstr "コピーせずにコピーモードを抜ける"
 
 msgid "move left, down, up, or right (arrow keys also work)"
-msgstr ""
+msgstr "左、下、上、右へ移動（矢印キーでも同じ）"
 
 msgid "move to the start of the line"
-msgstr ""
+msgstr "行の先頭へ移動"
 
 msgid "move to the end of the line"
-msgstr ""
+msgstr "行の末尾へ移動"
 
 msgid "move to the top of the scrollback (``Home`` also works)"
-msgstr ""
+msgstr "スクロールバックの先頭へ移動（``Home`` でも同じ）"
 
 msgid "move to the bottom (``End`` also works)"
-msgstr ""
+msgstr "末尾へ移動（``End`` でも同じ）"
 
 msgid "move to the previous prompt"
-msgstr ""
+msgstr "前のプロンプトへ移動"
 
 msgid "move to the next prompt"
-msgstr ""
+msgstr "次のプロンプトへ移動"
 
 msgid "scroll half a page up or down"
-msgstr ""
+msgstr "半ページ上または下へスクロール"
 
 msgid "scroll a page up or down (``PageUp`` and ``PageDown`` also work)"
-msgstr ""
+msgstr "1 ページ上または下へスクロール（``PageUp`` と ``PageDown`` でも同じ）"
 
 msgid "scroll a line up or down"
-msgstr ""
+msgstr "1 行上または下へスクロール"
 
 msgid "repeat a motion (``5j`` moves down five lines)"
-msgstr ""
+msgstr "移動を繰り返す（``5j`` で 5 行下へ）"
 
 msgid "start selecting by character (press again to stop selecting)"
-msgstr ""
+msgstr "文字単位で選択を始める（もう一度押すと選択をやめる）"
 
 msgid "start selecting by line"
-msgstr ""
+msgstr "行単位で選択を始める"
 
 msgid "copy the selection and leave copy mode"
-msgstr ""
+msgstr "選択範囲をコピーしてコピーモードを抜ける"
 
 msgid ""
 "copy the current line and leave copy mode when nothing is selected "
 "(``3yy`` copies three lines)"
-msgstr ""
+msgstr "何も選んでいないとき、カーソルのある行をコピーしてコピーモードを抜ける（``3yy`` で 3 行）"
 
 msgid "same as ``y`` with a selection, otherwise same as ``yy``"
-msgstr ""
+msgstr "選択中は ``y``、選択していなければ ``yy`` と同じ"
 
 msgid "copy the selection and stay in copy mode"
-msgstr ""
+msgstr "選択範囲をコピーし、コピーモードを続ける"
 
 msgid "open the search bar"
-msgstr ""
+msgstr "検索バーを開く"
 
 msgid "move to the next or previous match"
-msgstr ""
+msgstr "次または前の一致へ移動"
 

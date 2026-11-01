@@ -20,59 +20,61 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Google Chrome"
-msgstr ""
+msgstr "Google Chrome"
 
 msgid "Tab & window shortcuts"
-msgstr ""
+msgstr "タブとウィンドウのショートカット"
 
 msgid "open a new window in incognito mode"
-msgstr ""
+msgstr "新しいシークレット ウィンドウを開く"
 
 msgid "reopen the last tab you've closed"
-msgstr ""
+msgstr "最後に閉じたタブを開き直す"
 
 msgid "switch to the tab at the specified position number"
-msgstr ""
+msgstr "指定した位置のタブに切り替え"
 
 msgid "switch to the last tab"
-msgstr ""
+msgstr "最後のタブに切り替え"
 
 msgid "open the previous/next page in your browsing history for the current tab"
-msgstr ""
+msgstr "現在のタブの閲覧履歴で、前/次のページを開く"
 
 msgid "search your tabs"
-msgstr ""
+msgstr "タブを検索"
 
 msgid "Move tabs right or left"
-msgstr ""
+msgstr "タブを右または左へ移動"
 
 msgid "Webpage shortcuts"
-msgstr ""
+msgstr "ウェブページのショートカット"
 
 msgid "reload your current page, ignoring cached content"
-msgstr ""
+msgstr "キャッシュを使わずに現在のページを再読み込み"
 
 msgid "Google Chrome feature shortcuts"
-msgstr ""
+msgstr "Google Chrome の機能のショートカット"
 
 msgid "open the history page in a new tab"
-msgstr ""
+msgstr "新しいタブで履歴ページを開く"
 
 msgid "jump to the previous match to your Find Bar search"
-msgstr ""
+msgstr "検索バーで検索した語の、前の一致へ移動"
 
 msgid "open Developer Tools(your last panel)"
-msgstr ""
+msgstr "デベロッパー ツールを開く（最後に使ったパネル）"
 
 msgid "open Console Panel"
-msgstr ""
+msgstr "コンソール パネルを開く"
 
 msgid "Site shortcuts"
-msgstr ""
+msgstr "サイト検索のショートカット"
 
 msgid "@bookmarks, @history and @tabs"
-msgstr ""
+msgstr "@bookmarks、@history、@tabs"
 
 msgid "`Google Chrome Help <https://support.google.com/chrome/answer/157179>`_"
 msgstr ""
+"`Google Chrome ヘルプ "
+"<https://support.google.com/chrome/answer/157179?hl=ja>`_"
 

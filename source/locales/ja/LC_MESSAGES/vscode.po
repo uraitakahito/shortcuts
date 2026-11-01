@@ -20,94 +20,96 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Visual Studio Code"
-msgstr ""
+msgstr "Visual Studio Code"
 
 msgid "General"
-msgstr ""
+msgstr "全般"
 
 msgid "move by word"
-msgstr ""
+msgstr "単語単位で移動"
 
 msgid "move a tab from one of two split editors to another"
-msgstr ""
+msgstr "2 つに分割したエディターの一方から他方へ、タブを移動"
 
 msgid "focus the editor"
-msgstr ""
+msgstr "エディターにフォーカス"
 
 msgid "move tab"
-msgstr ""
+msgstr "タブを移動"
 
 msgid "Navigation"
-msgstr ""
+msgstr "移動"
 
 msgid "go to line"
-msgstr ""
+msgstr "指定した行へ移動"
 
 msgid ""
 "`Bracket matching "
 "<https://code.visualstudio.com/docs/editor/editingevolved#_bracket-"
 "matching>`_"
 msgstr ""
+"`対応する括弧へ移動 <https://code.visualstudio.com/docs/editor/editingevolved"
+"#_bracket-matching>`_"
 
 msgid "go to references"
-msgstr ""
+msgstr "参照へ移動"
 
 msgid "multi-cursor / Selection"
-msgstr ""
+msgstr "マルチカーソルと選択"
 
 msgid "extend selection by word"
-msgstr ""
+msgstr "単語単位で選択範囲を広げる"
 
 msgid "column box selection"
-msgstr ""
+msgstr "矩形選択"
 
 msgid "Select all occurrences of current selection"
-msgstr ""
+msgstr "選択中の文字列と同じものをすべて選択"
 
 msgid "Editing"
-msgstr ""
+msgstr "編集"
 
 msgid "insert line below"
-msgstr ""
+msgstr "下に行を挿入"
 
 msgid "insert line above"
-msgstr ""
+msgstr "上に行を挿入"
 
 msgid "move line up/down"
-msgstr ""
+msgstr "行を上/下へ移動"
 
 msgid "Replace text in bulk"
-msgstr ""
+msgstr "テキストを一括で置換"
 
 msgid "Window Management"
-msgstr ""
+msgstr "ウィンドウの操作"
 
 msgid "Focus into First/Second Editor Group"
-msgstr ""
+msgstr "1 つ目/2 つ目のエディターグループにフォーカス"
 
 msgid "Move to previous terminal"
-msgstr ""
+msgstr "前のターミナルへ移動"
 
 msgid "Move to previous editor"
-msgstr ""
+msgstr "前のエディターへ移動"
 
 msgid "Move to next editor"
-msgstr ""
+msgstr "次のエディターへ移動"
 
 msgid "Display"
-msgstr ""
+msgstr "表示"
 
 msgid "Show source control"
-msgstr ""
+msgstr "ソース管理を表示"
 
 msgid "Open Preview to the Side"
-msgstr ""
+msgstr "横にプレビューを開く"
 
 msgid "Toggle integrated terminal"
-msgstr ""
+msgstr "統合ターミナルを切り替え"
 
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 msgid ""
 "You can navigate symbols inside a file with ⇧⌘O. By typing : the symbols "
@@ -116,98 +118,105 @@ msgid ""
 "<https://code.visualstudio.com/docs/editor/editingevolved#_go-to-"
 "symbol>`_ )"
 msgstr ""
+"⇧⌘O でファイル内のシンボルへ移動できる。: を入力すると、シンボルが種類ごとにまとまる。上下キーで目的の場所まで移動する。詳しくは `Go "
+"to Symbol <https://code.visualstudio.com/docs/editor/editingevolved#_go-"
+"to-symbol>`_ を参照"
 
 msgid "Copilot Chat"
-msgstr ""
+msgstr "Copilot Chat"
 
 msgid "Expand/Collapse current code block"
-msgstr ""
+msgstr "現在のコードブロックを展開/折りたたみ"
 
 msgid "Panel"
-msgstr ""
+msgstr "パネル"
 
 msgid "output"
-msgstr ""
+msgstr "出力"
 
 msgid "debug console"
-msgstr ""
+msgstr "デバッグコンソール"
 
 msgid "Sidebars"
-msgstr ""
+msgstr "サイドバー"
 
 msgid "Explorer: Focus on Open Editors View"
-msgstr ""
+msgstr "エクスプローラー: 開いているエディターのビューにフォーカス"
 
 msgid ""
 "`Search for files in the File Explorer "
 "<https://code.visualstudio.com/updates/v1_94#_find-in-explorer>`_"
 msgstr ""
+"`エクスプローラーでファイルを検索 <https://code.visualstudio.com/updates/v1_94#_find-in-"
+"explorer>`_"
 
 msgid "Extensions"
-msgstr ""
+msgstr "拡張機能"
 
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bookmarks"
 
 msgid "Mark/unmark positions in your code"
-msgstr ""
+msgstr "コードの位置に印を付ける/外す"
 
 msgid "Jump forward and backward between bookmarks"
-msgstr ""
+msgstr "ブックマークの間を前後に移動"
 
 msgid "GitHub Copilot"
-msgstr ""
+msgstr "GitHub Copilot"
 
 msgid "Accept Panel Suggestion at the Cursor"
-msgstr ""
+msgstr "カーソル位置で、パネルの提案を受け入れる"
 
 msgid "Accept suggestion word by word"
-msgstr ""
+msgstr "提案を単語ごとに受け入れる"
 
 msgid "Debug Last Terminal Command"
-msgstr ""
+msgstr "最後のターミナルコマンドをデバッグ"
 
 msgid "Navigate to the Next Panel Suggestion"
-msgstr ""
+msgstr "パネルの次の提案へ移動"
 
 msgid "Navigate to the Previous Panel Suggestion"
-msgstr ""
+msgstr "パネルの前の提案へ移動"
 
 msgid "Toggle Copilot Chat"
-msgstr ""
+msgstr "Copilot Chat を切り替え"
 
 msgid ""
 "`Undo requests <https://code.visualstudio.com/updates/v1_101#_chat-ux-"
 "improvements>`_"
 msgstr ""
+"`リクエストを取り消す <https://code.visualstudio.com/updates/v1_101#_chat-ux-"
+"improvements>`_"
 
 msgid "Context Variables"
-msgstr ""
+msgstr "コンテキスト変数"
 
 msgid "Selected text in the editor"
-msgstr ""
+msgstr "エディターで選択中のテキスト"
 
 msgid "Selected text in the terminal"
-msgstr ""
+msgstr "ターミナルで選択中のテキスト"
 
 msgid "Last executed command and its result in the terminal"
-msgstr ""
+msgstr "ターミナルで最後に実行したコマンドと、その結果"
 
 msgid ""
 "Analyzes highly relevant code and files from the entire current workspace"
 " and adds them as context for prompts."
-msgstr ""
+msgstr "現在のワークスペース全体から関連の深いコードとファイルを分析し、プロンプトのコンテキストに加える"
 
 msgid ""
 "Retrieves web page content from the specified URL and adds it to the "
 "context."
-msgstr ""
+msgstr "指定した URL のウェブページの内容を取得し、コンテキストに加える"
 
 msgid ""
 "By entering a file or folder name after # (e.g., #src/main.js), you can "
 "explicitly add the contents of that file or folder as context for the "
 "chat."
-msgstr ""
+msgstr "# の後にファイル名かフォルダ名を入力すると（例: #src/main.js）、その中身をチャットのコンテキストとして明示的に加えられる"
 
 msgid ""
 "By entering a symbol name such as function name, class name, or variable "
@@ -215,39 +224,43 @@ msgid ""
 "reference locations of the corresponding symbol from files in the "
 "workspace and adds them as context."
 msgstr ""
+"# の後に関数名、クラス名、変数名などのシンボル名を入力すると（例: "
+"#myFunction）、ワークスペースのファイルからそのシンボルの定義と参照箇所を探し、コンテキストに加える"
 
 msgid ""
 "Adds information about tests that failed in the most recent test "
 "execution as context. This is useful for debugging test code and "
 "identifying areas that need fixing."
-msgstr ""
+msgstr "直近のテスト実行で失敗したテストの情報を、コンテキストに加える。テストコードのデバッグや、直すべき箇所の特定に役立つ"
 
 msgid "Command Palette"
-msgstr ""
+msgstr "コマンドパレット"
 
 msgid "Attach to a Docker container"
-msgstr ""
+msgstr "Docker コンテナーに接続"
 
 msgid "edit and find available key bindings"
-msgstr ""
+msgstr "使えるキー割り当てを探して編集"
 
 msgid "split an editor"
-msgstr ""
+msgstr "エディターを分割"
 
 msgid "move a tab from A to B"
-msgstr ""
+msgstr "タブを A から B へ移動"
 
 msgid "Core CLI options"
-msgstr ""
+msgstr "主な CLI オプション"
 
 msgid "Open a file difference editor. Requires two file paths as arguments."
-msgstr ""
+msgstr "ファイルの差分エディターを開く。引数に 2 つのファイルパスが要る"
 
 msgid "Forces opening a file or folder in the last active window."
-msgstr ""
+msgstr "ファイルやフォルダを、最後に使っていたウィンドウで開く"
 
 msgid ""
 "`vscode cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-"
 "shortcuts-macos.pdf>`_"
 msgstr ""
+"`VS Code のチートシート（英語、PDF） <https://code.visualstudio.com/shortcuts"
+"/keyboard-shortcuts-macos.pdf>`_"
 

@@ -20,16 +20,18 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 msgid "move channel"
-msgstr ""
+msgstr "チャンネルを移動"
 
 msgid "Open the \"All unreads\" dialog"
-msgstr ""
+msgstr "「すべての未読」を開く"
 
 msgid ""
 "`84 Slack Keyboard Shortcuts: Your Cheat Sheet <https://dispatch.m.io"
 "/slack-keyboard-shortcuts-cheat-sheet/>`_"
 msgstr ""
+"`Slack のキーボードショートカット 84 選（英語） <https://dispatch.m.io/slack-keyboard-"
+"shortcuts-cheat-sheet/>`_"
 

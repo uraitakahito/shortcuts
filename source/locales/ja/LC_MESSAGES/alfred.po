@@ -20,11 +20,11 @@ msgstr ""
 "Generated-By: Babel 2.16.0\n"
 
 msgid "Alfred"
-msgstr ""
+msgstr "Alfred"
 
 msgid "General"
-msgstr ""
+msgstr "全般"
 
 msgid "Search the currently typed query in default web search"
-msgstr ""
+msgstr "入力中の語を既定のウェブ検索で検索"
 
