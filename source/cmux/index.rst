@@ -18,6 +18,7 @@ See `Keyboard Shortcuts <https://cmux.com/docs/keyboard-shortcuts>`_ for the ful
    :caption: Guides
 
    copy
+   copy-mode
    focus-pane
 
 App

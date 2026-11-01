@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shortcuts \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 17:58+0900\n"
+"POT-Creation-Date: 2026-11-01 18:26+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -244,185 +244,9 @@ msgstr ""
 "に似たキーで画面の中を動き、範囲を選んでコピーします。スクロールして見えなくなった行も選べます。コピーモードでコピーした文字は、「選択時にコピー」の設定にかかわらず、クリップボードに入ります。"
 
 msgid ""
-"Command Shift M enters copy mode, v or V starts a selection, and y copies"
-" and leaves. yy copies the cursor line. Esc or q quits."
-msgstr "⌘⇧M でコピーモードに入り、v か V で選び始め、y でコピーして終わる。yy はカーソルの行をコピーする。Esc か q でやめる。"
-
-msgid ""
-"How copy mode works. {kbd}`⌘+⇧+M` enters it, {kbd}`v` or {kbd}`V` starts "
-"a selection, and {kbd}`y` copies. Copying ends copy mode. While copy mode"
-" is on, the pane shows \"vim\" at the top right."
-msgstr ""
-"コピーモードの流れ。{kbd}`⌘+⇧+M` で入り、{kbd}`v` か {kbd}`V` で選び始め、{kbd}`y` "
-"でコピーします。コピーするとコピーモードは終わります。コピーモードのあいだは、ペインの右上に「vim」と表示されます。"
-
-msgid "Example: copying two lines a little higher up"
-msgstr "例: 少し上に出ている 2 行をコピーする"
-
-msgid ""
-"Press {kbd}`⌘+⇧+M`. The pane shows \"vim\" at the top right, and a box "
-"marks the cursor."
-msgstr "{kbd}`⌘+⇧+M` を押します。ペインの右上に「vim」と表示され、カーソルの位置に枠が出ます。"
-
-msgid ""
-"Press {kbd}`k` to go up to the first line you want. Typing a number "
-"first, as in {kbd}`5` {kbd}`k`, moves five lines at once."
-msgstr ""
-"{kbd}`k` を押して、コピーしたい 1 行目まで上がります。{kbd}`5` {kbd}`k` のように数字を先に打つと、5 "
-"行まとめて動きます。"
-
-msgid "Press {kbd}`V` ({kbd}`⇧+V`) to start selecting by line."
-msgstr "{kbd}`V`（{kbd}`⇧+V`）を押して、行単位で選び始めます。"
-
-msgid "Press {kbd}`j` to extend the selection to the second line."
-msgstr "{kbd}`j` を押して、2 行目まで広げます。"
-
-msgid "Press {kbd}`y`. The two lines go to the clipboard, and copy mode ends."
-msgstr "{kbd}`y` を押します。2 行がクリップボードに入り、コピーモードが終わります。"
-
-msgid "Copy mode keys"
-msgstr "コピーモードのキー"
-
-msgid "Enter and leave:"
-msgstr "入る・やめる:"
-
-msgid "Keys"
-msgstr "キー"
-
-msgid "What it does"
-msgstr "すること"
-
-msgid "Enters copy mode. Press it again to leave."
-msgstr "コピーモードに入ります。もう一度押すとやめます。"
-
-msgid "Leaves without copying. The selection is cleared."
-msgstr "コピーせずにやめます。選んでいた範囲は消えます。"
-
-msgid "Move. While you are selecting, the end of the selection moves:"
-msgstr "動く（選んでいるあいだは、範囲の終わりが動きます）:"
-
-msgid "One step left, down, up, or right. The arrow keys do the same."
-msgstr "左、下、上、右へ 1 つ動きます。矢印キーでも同じです。"
-
-msgid "{kbd}`0` {kbd}`^` / {kbd}`$`"
-msgstr "{kbd}`0` {kbd}`^` ／ {kbd}`$`"
-
-msgid "To the start of the line / to the end of the line"
-msgstr "行の先頭へ ／ 行の終わりへ"
-
-msgid "{kbd}`g` {kbd}`g` / {kbd}`G`"
-msgstr "{kbd}`g` {kbd}`g` ／ {kbd}`G`"
-
-msgid ""
-"To the very top, the first line that has scrolled out of view / to the "
-"bottom. {kbd}`Home` / {kbd}`End` do the same."
-msgstr "いちばん上（スクロールして見えなくなった行の先頭）へ ／ いちばん下へ。{kbd}`Home` ／ {kbd}`End` でも同じです。"
-
-msgid "{kbd}`{` / {kbd}`}`"
-msgstr "{kbd}`{` ／ {kbd}`}`"
-
-msgid "To the previous prompt / to the next prompt"
-msgstr "前のプロンプトへ ／ 次のプロンプトへ"
-
-msgid "{kbd}`⌃+U` / {kbd}`⌃+D`"
-msgstr "{kbd}`⌃+U` ／ {kbd}`⌃+D`"
-
-msgid "Scrolls half a screen up / down."
-msgstr "半画面ぶん上へ ／ 下へスクロールします。"
-
-msgid "{kbd}`⌃+B` / {kbd}`⌃+F`"
-msgstr "{kbd}`⌃+B` ／ {kbd}`⌃+F`"
-
-msgid ""
-"Scrolls a full screen up / down. {kbd}`PageUp` / {kbd}`PageDown` do the "
-"same."
-msgstr "1 画面ぶん上へ ／ 下へスクロールします。{kbd}`PageUp` ／ {kbd}`PageDown` でも同じです。"
-
-msgid "{kbd}`⌃+Y` / {kbd}`⌃+E`"
-msgstr "{kbd}`⌃+Y` ／ {kbd}`⌃+E`"
-
-msgid "Scrolls one line up / down."
-msgstr "1 行ぶん上へ ／ 下へスクロールします。"
-
-msgid "A number"
-msgstr "数字"
-
-msgid ""
-"Repeats the next key that many times. {kbd}`5` {kbd}`j` moves down five "
-"lines."
-msgstr "次のキーを、その回数だけくり返します。{kbd}`5` {kbd}`j` で 5 行下へ動きます。"
-
-msgid "Select:"
-msgstr "選ぶ:"
-
-msgid ""
-"Starts selecting by character. Press it again to stop selecting; copy "
-"mode stays on."
-msgstr "文字単位で選び始めます。もう一度押すと、選ぶのをやめます。コピーモードは続きます。"
-
-msgid "Starts selecting by line."
-msgstr "行単位で選び始めます。"
-
-msgid "Copy:"
-msgstr "コピーする:"
-
-msgid "Copies the selection and leaves copy mode."
-msgstr "選んだ範囲をコピーして、コピーモードを終えます。"
-
-msgid ""
-"With nothing selected, copies the line with the cursor and leaves. "
-"{kbd}`3` {kbd}`y` {kbd}`y` copies three lines."
-msgstr "選んでいないときに、カーソルのある行をコピーして終えます。{kbd}`3` {kbd}`y` {kbd}`y` なら 3 行です。"
-
-msgid "Same as {kbd}`y` with a selection, and as {kbd}`y` {kbd}`y` without one."
-msgstr "選んでいれば {kbd}`y` と、選んでいなければ {kbd}`y` {kbd}`y` と同じです。"
-
-msgid "Copies the selection. Copy mode stays on."
-msgstr "選んだ範囲をコピーします。コピーモードは続きます。"
-
-msgid "Search:"
-msgstr "探す:"
-
-msgid "Opens the search bar."
-msgstr "検索バーを開きます。"
-
-msgid "{kbd}`n` / {kbd}`N`"
-msgstr "{kbd}`n` ／ {kbd}`N`"
-
-msgid "To the next match / to the previous match"
-msgstr "次の一致へ ／ 前の一致へ"
-
-msgid ""
-"**Not available**: vim's {kbd}`w` {kbd}`b` {kbd}`e` (moving by word) and "
-"rectangular selection. For a rectangle, use {kbd}`⌥` + drag with the "
-"mouse."
-msgstr ""
-"**ないもの**: vim の {kbd}`w` {kbd}`b` "
-"{kbd}`e`（単語ごとの移動）と、四角い範囲の選択はありません。四角い範囲は、マウスの {kbd}`⌥` + ドラッグで選びます。"
-
-msgid ""
-"**Other keys**: keys not in the tables above are ignored. {kbd}`⌃+C` is "
-"ignored too, so copy mode never stops a running command by accident. Keys"
-" with {kbd}`⌘` work as usual."
-msgstr ""
-"**ほかのキー**: 上の表にないキーは無視されます。{kbd}`⌃+C` "
-"も無視されるので、コピーモードのあいだに、動いているコマンドを止めてしまうことはありません。{kbd}`⌘` を使うキーはふだんどおり働きます。"
-
-msgid ""
-"**Japanese input**: even with Japanese input on, keys are read by their "
-"position on the keyboard."
-msgstr "**日本語入力のとき**: 日本語入力がオンのときも、押したキーの位置で読み取ります。"
-
-msgid ""
-"**Other ways in**: copy mode is not in the menu bar. Besides the key, you"
-" can enter it with Toggle terminal copy mode in the command palette "
-"({kbd}`⌘+⇧+P`). To change {kbd}`⌘+⇧+M`, set "
-"`shortcuts.bindings.toggleTerminalCopyMode` in `cmux.json`."
-msgstr ""
-"**入り方のほか**: "
-"コピーモードはメニューバーにはありません。キーのほかに、コマンドパレット（{kbd}`⌘+⇧+P`）の「ターミナルコピーモードを切替」からも入れます。{kbd}`⌘+⇧+M`"
-" は、`cmux.json` の `shortcuts.bindings.toggleTerminalCopyMode` "
-"で別のキーに変えられます。"
+"The keys, with figures and examples, are on their own page: [Selecting "
+"text with the keyboard (copy mode)](copy-mode.md)."
+msgstr "キーの一覧は、図と使い方の例といっしょに、専用のページ「[キーボードで文字を選ぶ（コピーモード）](copy-mode.md)」にまとめました。"
 
 msgid "Selecting inside apps that use the mouse, such as Claude Code"
 msgstr "Claude Code など、マウスを使うアプリの中で選ぶ"
@@ -551,6 +375,387 @@ msgstr "[Ghostty の設定リファレンス（英語）](https://ghostty.org/do
 
 msgid "[Claude Code fullscreen](https://code.claude.com/docs/en/fullscreen)"
 msgstr "[Claude Code の全画面表示](https://code.claude.com/docs/ja/fullscreen)"
+
+msgid "Selecting text with the keyboard (copy mode)"
+msgstr "キーボードで文字を選ぶ（コピーモード）"
+
+msgid ""
+"This guide shows how to select text in a cmux terminal with the keyboard "
+"only and copy it to the clipboard, using cmux's copy mode. For selecting "
+"with the mouse, see [Copying text from the terminal](copy.md)."
+msgstr ""
+"cmux のターミナルで、キーボードだけで文字を選び、クリップボードにコピーする方法をまとめました。cmux "
+"のコピーモードを使います。マウスで選ぶ方法は「[ターミナルの文字をコピーする](copy.md)」を見てください。"
+
+msgid ""
+"Press {kbd}`⌘+⇧+M` to enter copy mode. The pane shows \"vim\" at the top "
+"right."
+msgstr "{kbd}`⌘+⇧+M` を押して、コピーモードに入ります。ペインの右上に「vim」と表示されます。"
+
+msgid "Move the cursor with {kbd}`h` {kbd}`j` {kbd}`k` {kbd}`l`, as in vim."
+msgstr "vim と同じように、{kbd}`h` {kbd}`j` {kbd}`k` {kbd}`l` でカーソルを動かします。"
+
+msgid ""
+"Press {kbd}`v` to select by character, or {kbd}`V` to select whole lines."
+" Moving the cursor then extends the selection."
+msgstr "{kbd}`v` で文字単位、{kbd}`V` で行単位に選び始めます。そのあとカーソルを動かすと、選ぶ範囲が広がります。"
+
+msgid ""
+"Press {kbd}`y` to copy. The text goes to the clipboard, and copy mode "
+"ends. To copy only the cursor line, press {kbd}`y` {kbd}`y` without "
+"selecting."
+msgstr ""
+"{kbd}`y` でコピーします。文字がクリップボードに入り、コピーモードが終わります。カーソルのある 1 行だけなら、選ばずに {kbd}`y`"
+" {kbd}`y` を押します。"
+
+msgid "Press {kbd}`Esc` or {kbd}`q` to leave without copying."
+msgstr "コピーせずにやめるときは、{kbd}`Esc` か {kbd}`q` を押します。"
+
+msgid "How copy mode works"
+msgstr "コピーモードの流れ"
+
+msgid ""
+"Command Shift M enters copy mode, v or V starts a selection, and y copies"
+" and leaves. yy copies the cursor line. Esc or q quits."
+msgstr "⌘⇧M でコピーモードに入り、v か V で選び始め、y でコピーして終わる。yy はカーソルの行をコピーする。Esc か q でやめる。"
+
+msgid ""
+"How copy mode works. {kbd}`⌘+⇧+M` enters it, {kbd}`v` or {kbd}`V` starts "
+"a selection, and {kbd}`y` copies. Copying ends copy mode. While copy mode"
+" is on, the pane shows \"vim\" at the top right."
+msgstr ""
+"コピーモードの流れ。{kbd}`⌘+⇧+M` で入り、{kbd}`v` か {kbd}`V` で選び始め、{kbd}`y` "
+"でコピーします。コピーするとコピーモードは終わります。コピーモードのあいだは、ペインの右上に「vim」と表示されます。"
+
+msgid "Keys"
+msgstr "キー"
+
+msgid "What it does"
+msgstr "すること"
+
+msgid "Enters copy mode. Press it again to leave."
+msgstr "コピーモードに入ります。もう一度押すとやめます。"
+
+msgid "Leaves without copying. The selection is cleared."
+msgstr "コピーせずにやめます。選んでいた範囲は消えます。"
+
+msgid "Example: copying two lines a little higher up"
+msgstr "例: 少し上に出ている 2 行をコピーする"
+
+msgid ""
+"Press {kbd}`⌘+⇧+M`. The pane shows \"vim\" at the top right, and a box "
+"marks the cursor."
+msgstr "{kbd}`⌘+⇧+M` を押します。ペインの右上に「vim」と表示され、カーソルの位置に枠が出ます。"
+
+msgid ""
+"Press {kbd}`k` to go up to the first line you want. Typing a number "
+"first, as in {kbd}`5` {kbd}`k`, moves five lines at once."
+msgstr ""
+"{kbd}`k` を押して、コピーしたい 1 行目まで上がります。{kbd}`5` {kbd}`k` のように数字を先に打つと、5 "
+"行まとめて動きます。"
+
+msgid "Press {kbd}`V` ({kbd}`⇧+V`) to start selecting by line."
+msgstr "{kbd}`V`（{kbd}`⇧+V`）を押して、行単位で選び始めます。"
+
+msgid "Press {kbd}`j` to extend the selection to the second line."
+msgstr "{kbd}`j` を押して、2 行目まで広げます。"
+
+msgid "Press {kbd}`y`. The two lines go to the clipboard, and copy mode ends."
+msgstr "{kbd}`y` を押します。2 行がクリップボードに入り、コピーモードが終わります。"
+
+msgid "Moving the cursor"
+msgstr "カーソルを動かす"
+
+msgid ""
+"The box that copy mode draws is the cursor. The keys are vim's: {kbd}`h` "
+"{kbd}`j` {kbd}`k` {kbd}`l` move one step, and other keys go further. "
+"While you are selecting, the box is hidden, and the same keys move the "
+"end of the selection."
+msgstr ""
+"コピーモードで出る枠がカーソルです。キーは vim と同じで、{kbd}`h` {kbd}`j` {kbd}`k` {kbd}`l` で 1 "
+"つずつ動き、ほかのキーでもっと遠くへ動きます。選んでいるあいだは枠が消え、同じキーで選ぶ範囲の端が動きます。"
+
+msgid ""
+"k, Control U, Control B, and gg go up by one line, half a screen, one "
+"screen, and to the very top. j, Control D, Control F, and G go down the "
+"same way. h and l move one character, 0 goes to the start of the line, "
+"and $ to the end."
+msgstr ""
+"k、⌃U、⌃B、gg で、1 行、半画面、1 画面ぶん上と、いちばん上へ動く。j、⌃D、⌃F、G は同じように下へ動く。h と l は 1 "
+"文字ずつ、0 は行の先頭へ、$ は行の終わりへ動く。"
+
+msgid ""
+"Where the movement keys go. Up and down on the left, along a line on the "
+"right. A number typed first repeats the key."
+msgstr "動かすキーの行き先。左は上下の動き、右は行の中の動き。数字を先に打つと、そのキーをくり返します。"
+
+msgid "One step left, down, up, or right. The arrow keys do the same."
+msgstr "左、下、上、右へ 1 つ動きます。矢印キーでも同じです。"
+
+msgid "{kbd}`0` {kbd}`^` / {kbd}`$`"
+msgstr "{kbd}`0` {kbd}`^` ／ {kbd}`$`"
+
+msgid "To the start of the line / to the end of the line"
+msgstr "行の先頭へ ／ 行の終わりへ"
+
+msgid "{kbd}`g` {kbd}`g` / {kbd}`G`"
+msgstr "{kbd}`g` {kbd}`g` ／ {kbd}`G`"
+
+msgid ""
+"To the very top, the first line that has scrolled out of view / to the "
+"bottom. {kbd}`Home` / {kbd}`End` do the same."
+msgstr "いちばん上（スクロールして見えなくなった行の先頭）へ ／ いちばん下へ。{kbd}`Home` ／ {kbd}`End` でも同じです。"
+
+msgid "{kbd}`{` / {kbd}`}`"
+msgstr "{kbd}`{` ／ {kbd}`}`"
+
+msgid "Scrolls up to the previous prompt / down to the next prompt."
+msgstr "前のプロンプトまで上へ ／ 次のプロンプトまで下へスクロールします。"
+
+msgid "{kbd}`⌃+U` / {kbd}`⌃+D`"
+msgstr "{kbd}`⌃+U` ／ {kbd}`⌃+D`"
+
+msgid "Scrolls half a screen up / down."
+msgstr "半画面ぶん上へ ／ 下へスクロールします。"
+
+msgid "{kbd}`⌃+B` / {kbd}`⌃+F`"
+msgstr "{kbd}`⌃+B` ／ {kbd}`⌃+F`"
+
+msgid ""
+"Scrolls a full screen up / down. {kbd}`PageUp` / {kbd}`PageDown` do the "
+"same."
+msgstr "1 画面ぶん上へ ／ 下へスクロールします。{kbd}`PageUp` ／ {kbd}`PageDown` でも同じです。"
+
+msgid "{kbd}`⌃+Y` / {kbd}`⌃+E`"
+msgstr "{kbd}`⌃+Y` ／ {kbd}`⌃+E`"
+
+msgid "Scrolls one line up / down."
+msgstr "1 行ぶん上へ ／ 下へスクロールします。"
+
+msgid "A number"
+msgstr "数字"
+
+msgid ""
+"Repeats the next key that many times. {kbd}`5` {kbd}`j` moves down five "
+"lines."
+msgstr "次のキーを、その回数だけくり返します。{kbd}`5` {kbd}`j` で 5 行下へ動きます。"
+
+msgid ""
+"**At the edge of the pane**: moving the cursor past the top or bottom of "
+"the pane scrolls the screen with it."
+msgstr "**ペインの端で**: カーソルをペインのいちばん上や下より先へ動かすと、画面もいっしょにスクロールします。"
+
+msgid ""
+"**Keys that scroll**: keys such as {kbd}`⌃+U` and {kbd}`{` keep the "
+"cursor on the same text while that text is still in view. Otherwise the "
+"cursor moves to the top or bottom edge of the pane."
+msgstr ""
+"**スクロールするキー**: {kbd}`⌃+U` や {kbd}`{` "
+"などでは、カーソルのあった文字が画面に残っていれば、カーソルはその文字にとどまります。見えなくなったときは、ペインのいちばん上か下の行に移ります。"
+
+msgid ""
+"**While selecting**: {kbd}`⌃+U` and {kbd}`⌃+D` move a full screen, like "
+"{kbd}`⌃+B` and {kbd}`⌃+F`."
+msgstr ""
+"**選んでいるとき**: {kbd}`⌃+U` と {kbd}`⌃+D` は、{kbd}`⌃+B` と {kbd}`⌃+F` と同じく 1 "
+"画面ぶん動きます。"
+
+msgid ""
+"**0 in a number**: {kbd}`0` alone goes to the start of the line. After "
+"another digit it is part of the number, so {kbd}`1` {kbd}`0` {kbd}`k` "
+"moves up ten lines."
+msgstr ""
+"**数字の中の 0**: {kbd}`0` だけなら行の先頭へ動きます。ほかの数字のあとなら数字の続きになるので、{kbd}`1` "
+"{kbd}`0` {kbd}`k` で 10 行上へ動きます。"
+
+msgid "Selecting by character or by line"
+msgstr "文字単位と行単位で選ぶ"
+
+msgid ""
+"There are two ways to select. {kbd}`v` selects from the character where "
+"you started to the cursor. {kbd}`V` selects whole lines, from the line "
+"where you started to the cursor line. Use {kbd}`V` for lines of output, "
+"and {kbd}`v` for part of a line, such as a path or a commit ID."
+msgstr ""
+"選び方は 2 つあります。{kbd}`v` は、選び始めた文字からカーソルまでを選びます。{kbd}`V` "
+"は、選び始めた行からカーソルの行までを、行ごと選びます。出力を行ごと取るなら {kbd}`V`、パスやコミット ID のように行の一部を取るなら "
+"{kbd}`v` を使います。"
+
+msgid ""
+"With v, the selection runs from Fix on the second line to Add on the "
+"third. With V, the second and third lines are selected whole."
+msgstr "v では、2 行目の Fix から 3 行目の Add までが選ばれる。V では、2 行目と 3 行目が行ごと選ばれる。"
+
+msgid ""
+"The same start point and cursor, selected with {kbd}`v` and with "
+"{kbd}`V`. The selection was started at \"Fix\", and the cursor is on "
+"\"Add\"."
+msgstr ""
+"選び始めた位置とカーソルの位置が同じでも、{kbd}`v` と {kbd}`V` "
+"では選ばれる範囲が違います。どちらも「Fix」で選び始め、カーソルは「Add」にあります。"
+
+msgid ""
+"Starts selecting by character. Press it again to stop selecting; copy "
+"mode stays on."
+msgstr "文字単位で選び始めます。もう一度押すと、選ぶのをやめます。コピーモードは続きます。"
+
+msgid "Starts selecting by line."
+msgstr "行単位で選び始めます。"
+
+msgid ""
+"**Switching to lines**: pressing {kbd}`V` while selecting by character "
+"starts a new line selection at the cursor line. The earlier start point "
+"is dropped."
+msgstr ""
+"**行単位に切り替える**: 文字単位で選んでいる途中で {kbd}`V` "
+"を押すと、カーソルの行から行単位で選び直します。それまでの選び始めの位置は使われません。"
+
+msgid ""
+"**Several lines at once**: {kbd}`3` {kbd}`V` selects the cursor line and "
+"the two lines below it."
+msgstr "**何行もまとめて**: {kbd}`3` {kbd}`V` で、カーソルの行とその下の 2 行を選びます。"
+
+msgid "Copying"
+msgstr "コピーする"
+
+msgid "Copies the selection and leaves copy mode."
+msgstr "選んだ範囲をコピーして、コピーモードを終えます。"
+
+msgid ""
+"With nothing selected, copies the line with the cursor and leaves. "
+"{kbd}`3` {kbd}`y` {kbd}`y` copies the cursor line and the two lines below"
+" it."
+msgstr ""
+"選んでいないときに、カーソルのある行をコピーして終えます。{kbd}`3` {kbd}`y` {kbd}`y` なら、カーソルの行とその下の 2 "
+"行をコピーします。"
+
+msgid "Same as {kbd}`y` with a selection, and as {kbd}`y` {kbd}`y` without one."
+msgstr "選んでいれば {kbd}`y` と、選んでいなければ {kbd}`y` {kbd}`y` と同じです。"
+
+msgid "Copies the selection. Copy mode stays on."
+msgstr "選んだ範囲をコピーします。コピーモードは続きます。"
+
+msgid "Paste with {kbd}`⌘+V`, in cmux or in any other app."
+msgstr "cmux でも、ほかのアプリでも、{kbd}`⌘+V` で貼り付けられます。"
+
+msgid "Searching"
+msgstr "探す"
+
+msgid "Opens the search bar."
+msgstr "検索バーを開きます。"
+
+msgid "{kbd}`n` / {kbd}`N`"
+msgstr "{kbd}`n` ／ {kbd}`N`"
+
+msgid "To the next match / to the previous match"
+msgstr "次の一致へ ／ 前の一致へ"
+
+msgid "Common tasks"
+msgstr "よくある使い方"
+
+msgid "Copying one line"
+msgstr "1 行をコピーする"
+
+msgid "Press {kbd}`⌘+⇧+M`."
+msgstr "{kbd}`⌘+⇧+M` を押します。"
+
+msgid "Go to the line with {kbd}`k` or {kbd}`j`."
+msgstr "{kbd}`k` か {kbd}`j` で、その行まで動きます。"
+
+msgid "Press {kbd}`y` {kbd}`y`."
+msgstr "{kbd}`y` {kbd}`y` を押します。"
+
+msgid "Copying part of a line, such as a path"
+msgstr "パスなど、行の一部をコピーする"
+
+msgid ""
+"Press {kbd}`⌘+⇧+M`, and move the cursor to the first character you want. "
+"{kbd}`0` goes to the start of the line, and a number such as {kbd}`8` "
+"{kbd}`l` moves eight characters at once."
+msgstr ""
+"{kbd}`⌘+⇧+M` を押し、コピーしたい最初の文字までカーソルを動かします。{kbd}`0` で行の先頭へ動き、{kbd}`8` "
+"{kbd}`l` のように数字を付けると 8 文字まとめて動きます。"
+
+msgid "Press {kbd}`v`."
+msgstr "{kbd}`v` を押します。"
+
+msgid ""
+"Move to the last character with {kbd}`l`, or to the end of the line with "
+"{kbd}`$`."
+msgstr "{kbd}`l` で最後の文字まで、または {kbd}`$` で行の終わりまで動きます。"
+
+msgid "Press {kbd}`y`."
+msgstr "{kbd}`y` を押します。"
+
+msgid "Copying lines further up"
+msgstr "もっと上の行をコピーする"
+
+msgid ""
+"Scroll up with {kbd}`⌃+U` or {kbd}`⌃+B` until the lines are in view. "
+"{kbd}`{` goes back one prompt at a time, and {kbd}`g` {kbd}`g` goes to "
+"the very top."
+msgstr ""
+"{kbd}`⌃+U` か {kbd}`⌃+B` で、その行が見えるまで上へスクロールします。{kbd}`{` ならプロンプト 1 "
+"つずつさかのぼり、{kbd}`g` {kbd}`g` ならいちばん上へ飛びます。"
+
+msgid "Move the cursor to the first line, and press {kbd}`V`."
+msgstr "カーソルを 1 行目に動かし、{kbd}`V` を押します。"
+
+msgid "Extend the selection with {kbd}`j`, and press {kbd}`y`."
+msgstr "{kbd}`j` で範囲を広げ、{kbd}`y` を押します。"
+
+msgid "Good to know"
+msgstr "知っておくと役立つこと"
+
+msgid ""
+"**Not available**: vim's {kbd}`w` {kbd}`b` {kbd}`e` (moving by word) and "
+"rectangular selection. For a rectangle, use {kbd}`⌥` + drag with the "
+"mouse."
+msgstr ""
+"**ないもの**: vim の {kbd}`w` {kbd}`b` "
+"{kbd}`e`（単語ごとの移動）と、四角い範囲の選択はありません。四角い範囲は、マウスの {kbd}`⌥` + ドラッグで選びます。"
+
+msgid ""
+"**Other keys**: keys not in the tables above are ignored. {kbd}`⌃+C` is "
+"ignored too, so copy mode never stops a running command by accident. Keys"
+" with {kbd}`⌘` work as usual."
+msgstr ""
+"**ほかのキー**: 上の表にないキーは無視されます。{kbd}`⌃+C` "
+"も無視されるので、コピーモードのあいだに、動いているコマンドを止めてしまうことはありません。{kbd}`⌘` を使うキーはふだんどおり働きます。"
+
+msgid ""
+"**Japanese input**: even with Japanese input on, keys are read by their "
+"position on the keyboard."
+msgstr "**日本語入力のとき**: 日本語入力がオンのときも、押したキーの位置で読み取ります。"
+
+msgid ""
+"**Caps Lock**: Caps Lock is ignored, so {kbd}`V` {kbd}`Y` {kbd}`G` "
+"{kbd}`N` typed with it work as {kbd}`v` {kbd}`y` {kbd}`g` {kbd}`n`. Hold "
+"{kbd}`⇧` for the capital letters."
+msgstr ""
+"**Caps Lock**: Caps Lock は無視されるので、Caps Lock をオンにして打った {kbd}`V` {kbd}`Y` "
+"{kbd}`G` {kbd}`N` は、{kbd}`v` {kbd}`y` {kbd}`g` {kbd}`n` として働きます。大文字のキーは "
+"{kbd}`⇧` を押しながら打ちます。"
+
+msgid ""
+"**Other ways in**: copy mode is not in the menu bar. Besides the key, you"
+" can enter it with Toggle terminal copy mode in the command palette "
+"({kbd}`⌘+⇧+P`). To change {kbd}`⌘+⇧+M`, set "
+"`shortcuts.bindings.toggleTerminalCopyMode` in `cmux.json`."
+msgstr ""
+"**入り方のほか**: "
+"コピーモードはメニューバーにはありません。キーのほかに、コマンドパレット（{kbd}`⌘+⇧+P`）の「ターミナルコピーモードを切替」からも入れます。{kbd}`⌘+⇧+M`"
+" は、`cmux.json` の `shortcuts.bindings.toggleTerminalCopyMode` "
+"で別のキーに変えられます。"
+
+msgid ""
+"Checked with cmux 0.65.2 (build 113) on macOS. The keys and what they do "
+"were checked in the cmux source at tag v0.65.2 and in the source of the "
+"Ghostty that cmux uses (`cb1ef7091c`). The keys were not pressed to "
+"confirm."
+msgstr ""
+"確かめた環境は、cmux 0.65.2（ビルド 113）と macOS です。キーとその働きは、cmux のソース（タグ "
+"v0.65.2）と、cmux が使う Ghostty のソース（`cb1ef7091c`）で確かめました。キーを実際に押しての確認はしていません。"
 
 msgid "Returning to the Claude Code pane"
 msgstr "Claude Code のペインに戻る"

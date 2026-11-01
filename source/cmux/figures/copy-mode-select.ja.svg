@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 198" width="852" height="198">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+.curbox { fill: none; stroke: #1d55cc; stroke-width: 1.5; } .curbox.solid { fill: #ffffff; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="197" rx="10"/>
+<g transform="translate(16 16)">
+<text class="box-t" x="10" y="14">v で選ぶ</text>
+<rect class="pane" x="10" y="26" width="390" height="110" rx="6"/>
+<rect class="sel" x="84" y="55" width="97.5" height="18"/>
+<rect class="sel" x="24" y="73" width="82.5" height="18"/>
+<text class="term" x="24" y="50" textLength="165" lengthAdjust="spacing">% git log --oneline -3</text>
+<text class="term" x="24" y="68" textLength="157.5" lengthAdjust="spacing">a1b2c3d Fix the build</text>
+<text class="term" x="24" y="86" textLength="142.5" lengthAdjust="spacing">9f8e7d6 Add a guide</text>
+<text class="term" x="24" y="104" textLength="150" lengthAdjust="spacing">5d4c3b2 First commit</text>
+<text class="term" x="24" y="122" textLength="7.5" lengthAdjust="spacing">%</text>
+<text class="box-n" x="10" y="158">選び始めた文字から、カーソルの文字まで</text>
+<text class="box-t" x="420" y="14">V で選ぶ</text>
+<rect class="pane" x="420" y="26" width="390" height="110" rx="6"/>
+<rect class="sel" x="434" y="55" width="362" height="18"/>
+<rect class="sel" x="434" y="73" width="362" height="18"/>
+<text class="term" x="434" y="50" textLength="165" lengthAdjust="spacing">% git log --oneline -3</text>
+<text class="term" x="434" y="68" textLength="157.5" lengthAdjust="spacing">a1b2c3d Fix the build</text>
+<text class="term" x="434" y="86" textLength="142.5" lengthAdjust="spacing">9f8e7d6 Add a guide</text>
+<text class="term" x="434" y="104" textLength="150" lengthAdjust="spacing">5d4c3b2 First commit</text>
+<text class="term" x="434" y="122" textLength="7.5" lengthAdjust="spacing">%</text>
+<text class="box-n" x="420" y="158">選び始めた行から、カーソルの行まで、行ごと</text>
+</g>
+</svg>

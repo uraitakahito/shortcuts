@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 332" width="852" height="332">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+.curbox { fill: none; stroke: #1d55cc; stroke-width: 1.5; } .curbox.solid { fill: #ffffff; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="331" rx="10"/>
+<g transform="translate(16 16)">
+<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="arrowhead" d="M0 0 L10 5 L0 10 Z"/></marker></defs>
+<text class="box-t" x="10" y="14">上下に動く</text>
+<text class="cap-n" x="250" y="14">同じ働きのキー</text>
+<line class="edge" x1="40" y1="30" x2="40" y2="296" marker-start="url(#m)" marker-end="url(#m)"/>
+<line class="edge" x1="34" y1="44" x2="46" y2="44"/>
+<text class="key" x="62" y="48">gg</text>
+<text class="box-n" x="104" y="48">いちばん上</text>
+<text class="key-ink" x="250" y="48">Home</text>
+<line class="edge" x1="34" y1="76" x2="46" y2="76"/>
+<text class="key" x="62" y="80">⌃B</text>
+<text class="box-n" x="104" y="80">1 画面ぶん上</text>
+<text class="key-ink" x="250" y="80">PageUp</text>
+<line class="edge" x1="34" y1="106" x2="46" y2="106"/>
+<text class="key" x="62" y="110">⌃U</text>
+<text class="box-n" x="104" y="110">半画面ぶん上</text>
+<line class="edge" x1="34" y1="134" x2="46" y2="134"/>
+<text class="key" x="62" y="138">k</text>
+<text class="box-n" x="104" y="138">1 行上</text>
+<text class="key-ink" x="250" y="138">↑</text>
+<line class="edge" x1="34" y1="192" x2="46" y2="192"/>
+<text class="key" x="62" y="196">j</text>
+<text class="box-n" x="104" y="196">1 行下</text>
+<text class="key-ink" x="250" y="196">↓</text>
+<line class="edge" x1="34" y1="220" x2="46" y2="220"/>
+<text class="key" x="62" y="224">⌃D</text>
+<text class="box-n" x="104" y="224">半画面ぶん下</text>
+<line class="edge" x1="34" y1="250" x2="46" y2="250"/>
+<text class="key" x="62" y="254">⌃F</text>
+<text class="box-n" x="104" y="254">1 画面ぶん下</text>
+<text class="key-ink" x="250" y="254">PageDown</text>
+<line class="edge" x1="34" y1="282" x2="46" y2="282"/>
+<text class="key" x="62" y="286">G</text>
+<text class="box-n" x="104" y="286">いちばん下</text>
+<text class="key-ink" x="250" y="286">End</text>
+<rect class="curbox solid" x="33" y="154" width="14" height="18" rx="2"/>
+<text class="box-t" x="62" y="168">カーソル</text>
+<text class="box-t" x="440" y="14">行の中で動く</text>
+<rect class="pane" x="440" y="26" width="370" height="84" rx="6"/>
+<text class="term" x="460" y="72" textLength="232.5" lengthAdjust="spacing">9f8e7d6 Add the copy mode guide</text>
+<rect class="curbox" x="579.5" y="58" width="8.5" height="19" rx="1.5"/>
+<line class="edge" x1="577" y1="45" x2="559" y2="45" marker-end="url(#m)"/>
+<text class="key" x="552" y="49" text-anchor="end">h</text>
+<line class="edge" x1="590.5" y1="45" x2="608.5" y2="45" marker-end="url(#m)"/>
+<text class="key" x="615.5" y="49">l</text>
+<line class="edge" x1="577" y1="93" x2="461" y2="93" marker-end="url(#m)"/>
+<line class="edge" x1="590.5" y1="93" x2="691.5" y2="93" marker-end="url(#m)"/>
+<text class="key" x="460" y="132">0・^</text>
+<text class="box-n" x="502" y="132">行の先頭へ</text>
+<text class="key" x="692.5" y="132" text-anchor="end">$</text>
+<text class="box-n" x="678.5" y="132" text-anchor="end">行の終わりへ</text>
+<text class="box-t" x="440" y="176">回数をつける</text>
+<text class="key" x="450" y="206">5j</text>
+<text class="box-n" x="492" y="206">5 行下へ</text>
+<text class="key" x="450" y="236">10k</text>
+<text class="box-n" x="492" y="236">10 行上へ</text>
+<text class="key" x="450" y="266">8l</text>
+<text class="box-n" x="492" y="266">8 文字右へ</text>
+<text class="cap-n" x="440" y="296">0 だけなら行の先頭へ。ほかの数字のあとの 0 は数字の続き</text>
+<text class="box-t" x="680" y="176">プロンプトへ</text>
+<text class="key" x="690" y="206">{</text>
+<text class="box-n" x="710" y="206">前のプロンプトへ</text>
+<text class="key" x="690" y="236">}</text>
+<text class="box-n" x="710" y="236">次のプロンプトへ</text>
+</g>
+</svg>
