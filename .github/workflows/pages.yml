@@ -21,7 +21,9 @@ jobs:
       - uses: actions/checkout@v7
       - uses: astral-sh/setup-uv@v10.3.3   # v10 のような浮動メジャータグは無いので完全版で固定
       - run: uv sync --locked                                 # uv.lock どおりに入れる。ずれていたら失敗
-      - run: uv run make html SPHINXOPTS="-W --keep-going"   # 警告をエラーにし、全部出してから止まる
+      - run: uv run make po                                   # .rst から翻訳ファイルを作り直す（コミットはしない）
+      - run: uv run sphinx-intl stat -d source/locales        # 未翻訳か fuzzy が 1 件でもあれば失敗する
+      - run: uv run make site SPHINXOPTS="-W --keep-going"   # 英語を build/html、日本語を build/html/ja に出力
       - uses: actions/upload-pages-artifact@v5
         with:
           path: build/html
