@@ -73,69 +73,7 @@ To set it in `~/.config/cmux/cmux.json` instead, write the following, then run `
 
 To select without the mouse, use cmux's copy mode. You move around the screen with keys like vim's, select a range, and copy it. Lines that have scrolled out of view can be selected too. Text copied in copy mode always goes to the clipboard, whatever the copy on select setting.
 
-:::{figure} figures/copy-mode.svg
-:alt: Command Shift M enters copy mode, v or V starts a selection, and y copies and leaves. yy copies the cursor line. Esc or q quits.
-
-How copy mode works. {kbd}`⌘+⇧+M` enters it, {kbd}`v` or {kbd}`V` starts a selection, and {kbd}`y` copies. Copying ends copy mode. While copy mode is on, the pane shows "vim" at the top right.
-:::
-
-### Example: copying two lines a little higher up
-
-1. Press {kbd}`⌘+⇧+M`. The pane shows "vim" at the top right, and a box marks the cursor.
-2. Press {kbd}`k` to go up to the first line you want. Typing a number first, as in {kbd}`5` {kbd}`k`, moves five lines at once.
-3. Press {kbd}`V` ({kbd}`⇧+V`) to start selecting by line.
-4. Press {kbd}`j` to extend the selection to the second line.
-5. Press {kbd}`y`. The two lines go to the clipboard, and copy mode ends.
-
-### Copy mode keys
-
-Enter and leave:
-
-| Keys | What it does |
-| --- | --- |
-| {kbd}`⌘+⇧+M` | Enters copy mode. Press it again to leave. |
-| {kbd}`Esc` {kbd}`q` | Leaves without copying. The selection is cleared. |
-
-Move. While you are selecting, the end of the selection moves:
-
-| Keys | What it does |
-| --- | --- |
-| {kbd}`h` {kbd}`j` {kbd}`k` {kbd}`l` | One step left, down, up, or right. The arrow keys do the same. |
-| {kbd}`0` {kbd}`^` / {kbd}`$` | To the start of the line / to the end of the line |
-| {kbd}`g` {kbd}`g` / {kbd}`G` | To the very top, the first line that has scrolled out of view / to the bottom. {kbd}`Home` / {kbd}`End` do the same. |
-| {kbd}`{` / {kbd}`}` | To the previous prompt / to the next prompt |
-| {kbd}`⌃+U` / {kbd}`⌃+D` | Scrolls half a screen up / down. |
-| {kbd}`⌃+B` / {kbd}`⌃+F` | Scrolls a full screen up / down. {kbd}`PageUp` / {kbd}`PageDown` do the same. |
-| {kbd}`⌃+Y` / {kbd}`⌃+E` | Scrolls one line up / down. |
-| A number | Repeats the next key that many times. {kbd}`5` {kbd}`j` moves down five lines. |
-
-Select:
-
-| Keys | What it does |
-| --- | --- |
-| {kbd}`v` | Starts selecting by character. Press it again to stop selecting; copy mode stays on. |
-| {kbd}`V` | Starts selecting by line. |
-
-Copy:
-
-| Keys | What it does |
-| --- | --- |
-| {kbd}`y` | Copies the selection and leaves copy mode. |
-| {kbd}`y` {kbd}`y` | With nothing selected, copies the line with the cursor and leaves. {kbd}`3` {kbd}`y` {kbd}`y` copies three lines. |
-| {kbd}`Y` | Same as {kbd}`y` with a selection, and as {kbd}`y` {kbd}`y` without one. |
-| {kbd}`⌘+C` | Copies the selection. Copy mode stays on. |
-
-Search:
-
-| Keys | What it does |
-| --- | --- |
-| {kbd}`/` | Opens the search bar. |
-| {kbd}`n` / {kbd}`N` | To the next match / to the previous match |
-
-- **Not available**: vim's {kbd}`w` {kbd}`b` {kbd}`e` (moving by word) and rectangular selection. For a rectangle, use {kbd}`⌥` + drag with the mouse.
-- **Other keys**: keys not in the tables above are ignored. {kbd}`⌃+C` is ignored too, so copy mode never stops a running command by accident. Keys with {kbd}`⌘` work as usual.
-- **Japanese input**: even with Japanese input on, keys are read by their position on the keyboard.
-- **Other ways in**: copy mode is not in the menu bar. Besides the key, you can enter it with Toggle terminal copy mode in the command palette ({kbd}`⌘+⇧+P`). To change {kbd}`⌘+⇧+M`, set `shortcuts.bindings.toggleTerminalCopyMode` in `cmux.json`.
+The keys, with figures and examples, are on their own page: [Selecting text with the keyboard (copy mode)](copy-mode.md).
 
 ## Selecting inside apps that use the mouse, such as Claude Code
 
