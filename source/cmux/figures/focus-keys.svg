@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 208" width="852" height="208">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="207" rx="10"/>
+<g transform="translate(16 16)">
+<rect class="keycap" x="20" y="20" width="96" height="54" rx="9"/>
+<text class="cap-s on" x="68" y="45" text-anchor="middle">⌥</text>
+<text class="cap-n" x="68" y="64" text-anchor="middle">option</text>
+<text class="plus" x="130" y="53" text-anchor="middle">+</text>
+<rect class="keycap" x="144" y="20" width="110" height="54" rx="9"/>
+<text class="cap-s on" x="199" y="45" text-anchor="middle">⌘</text>
+<text class="cap-n" x="199" y="64" text-anchor="middle">command</text>
+<text class="plus" x="268" y="53" text-anchor="middle">+</text>
+<rect class="keycap" x="282" y="20" width="58" height="54" rx="9"/>
+<text class="cap-s on" x="311" y="54" text-anchor="middle">←</text>
+<text class="box-t" x="372" y="42">To the pane on the left</text>
+<text class="box-n" x="372" y="62">From the browser on the right to the Claude Code terminal</text>
+<rect class="keycap-ink" x="20" y="102" width="96" height="54" rx="9"/>
+<text class="cap-s" x="68" y="127" text-anchor="middle">⌃</text>
+<text class="cap-n" x="68" y="146" text-anchor="middle">control</text>
+<text class="plus" x="130" y="135" text-anchor="middle">+</text>
+<rect class="keycap-ink" x="144" y="102" width="110" height="54" rx="9"/>
+<text class="cap-s" x="199" y="127" text-anchor="middle">⌘</text>
+<text class="cap-n" x="199" y="146" text-anchor="middle">command</text>
+<text class="plus" x="268" y="135" text-anchor="middle">+</text>
+<rect class="keycap-ink" x="282" y="102" width="58" height="54" rx="9"/>
+<text class="cap-s" x="311" y="136" text-anchor="middle">1</text>
+<text class="box-t" x="372" y="124">To pane 1</text>
+<text class="box-n" x="372" y="144">From anywhere to the leftmost terminal</text>
+</g>
+</svg>
