@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: shortcuts \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"POT-Creation-Date: 2026-11-01 17:54+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -18,6 +18,542 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
+
+msgid "Copying text from the terminal"
+msgstr "ターミナルの文字をコピーする"
+
+msgid ""
+"This guide shows how to select text in a cmux terminal and copy it to the"
+" clipboard in three ways: with the mouse, with the keyboard only (copy "
+"mode), and inside apps that use the mouse, such as Claude Code."
+msgstr ""
+"cmux "
+"のターミナルで文字を選び、クリップボードにコピーするときのキー操作をまとめました。マウスで選ぶ方法、キーボードだけで選ぶ方法（コピーモード）、Claude"
+" Code のようにマウスを使うアプリの中で選ぶ方法の 3 つを、図を使って説明します。"
+
+msgid "In short"
+msgstr "短く言うと"
+
+msgid ""
+"Drag over the text and press {kbd}`⌘+C`. Press {kbd}`⌘+V` in another app "
+"to paste it."
+msgstr "マウスでドラッグして選び、{kbd}`⌘+C` を押します。ほかのアプリで {kbd}`⌘+V` を押すと貼り付けられます。"
+
+msgid ""
+"By default, selecting alone does not put the text on the clipboard. Do "
+"not forget {kbd}`⌘+C`."
+msgstr "cmux の初期設定では、選んだだけではクリップボードに入りません。{kbd}`⌘+C` を忘れずに押します。"
+
+msgid ""
+"To select with the keyboard only, press {kbd}`⌘+⇧+M` to enter copy mode. "
+"Start with {kbd}`v`, extend with {kbd}`h` {kbd}`j` {kbd}`k` {kbd}`l`, and"
+" copy with {kbd}`y`."
+msgstr ""
+"キーボードだけで選ぶときは、{kbd}`⌘+⇧+M` でコピーモードに入ります。{kbd}`v` で選び始め、{kbd}`h` {kbd}`j` "
+"{kbd}`k` {kbd}`l` で範囲を広げ、{kbd}`y` でコピーします。"
+
+msgid ""
+"On the Claude Code screen, a drag is selected by Claude Code and copied "
+"when you release the mouse button. To select with cmux, hold {kbd}`⇧` "
+"while dragging."
+msgstr ""
+"Claude Code の画面では、ドラッグすると Claude Code が選び、マウスのボタンを離した時点でコピーされます。cmux "
+"で選びたいときは、{kbd}`⇧` を押したままドラッグします。"
+
+msgid "Select with the mouse and press ⌘C"
+msgstr "マウスで選んで ⌘C"
+
+msgid ""
+"Dragging over text colors the range. That range is the selection. Press "
+"{kbd}`⌘+C` to put the selected text on the clipboard. It works the same "
+"as Edit > Copy in the menu bar, or Copy in the right-click menu."
+msgstr ""
+"マウスでドラッグすると、その範囲の色が変わります。これが「選択」です。そのまま {kbd}`⌘+C` "
+"を押すと、選んだ文字がクリップボードに入ります。メニューの「編集」→「コピー」と同じです。右クリックして「コピー」を選んでもかまいません。"
+
+msgid ""
+"Besides dragging, there are several ways to select. The figure compares "
+"the range each one selects on the same screen."
+msgstr "ドラッグのほかにも、選び方がいくつかあります。同じ画面で、選ばれる範囲を比べました。"
+
+msgid ""
+"The range selected by a drag, a double-click, a triple-click, Command "
+"with a triple-click, Option with a drag, and Shift with a click"
+msgstr "ドラッグ、ダブルクリック、トリプルクリック、⌘ + トリプルクリック、⌥ + ドラッグ、⇧ + クリックで選ばれる範囲"
+
+msgid ""
+"The range each action selects, in blue. The screen shows the output of "
+"`wc -l src/*.ts`, and the pointer marks where the button was released or "
+"clicked."
+msgstr "操作ごとに選ばれる範囲（青い部分）。画面は `wc -l src/*.ts` の結果で、矢印はマウスのボタンを離した所、またはクリックした所です。"
+
+msgid "Action"
+msgstr "操作"
+
+msgid "What it selects"
+msgstr "選ばれる範囲"
+
+msgid "Drag"
+msgstr "ドラッグ"
+
+msgid ""
+"From where you press to where you release. Dragging past the top or "
+"bottom of the pane scrolls as it selects."
+msgstr "押した所から、離した所まで。ペインの上や下の端を越えて引っぱると、スクロールしながら選べます。"
+
+msgid "Double-click"
+msgstr "ダブルクリック"
+
+msgid ""
+"One word. Spaces and symbols such as `( ) [ ] { } : ; , | $` separate "
+"words. `/` and `.` do not, so a path such as `src/todo.ts` is one word. A"
+" URL is selected whole."
+msgstr ""
+"1 語。空白や記号（`( ) [ ] { } : ; , | $` など）で区切ります。`/` と `.` "
+"は区切りにならないので、`src/todo.ts` のようなパスは 1 語になります。URL は丸ごと選ばれます。"
+
+msgid "Triple-click"
+msgstr "トリプルクリック"
+
+msgid ""
+"One line. A line wrapped at the pane width counts as one line, and spaces"
+" at either end are left out. On a prompt line, only the command you typed"
+" is selected."
+msgstr "1 行。画面の幅で折り返された行も 1 行として選びます。前後の空白は含みません。プロンプトの行では、打ったコマンドの部分だけを選びます。"
+
+msgid "{kbd}`⌘` + triple-click"
+msgstr "{kbd}`⌘` + トリプルクリック"
+
+msgid ""
+"The whole output of one command around the click. This works when the "
+"shell tells cmux where its prompts are, and cmux sets this up for zsh."
+msgstr ""
+"クリックした所を含む、1 つのコマンドの出力全体。シェルがプロンプトの位置を cmux に知らせているときに使えます。zsh では cmux "
+"が自動で設定します。"
+
+msgid "{kbd}`⌥` + drag"
+msgstr "{kbd}`⌥` + ドラッグ"
+
+msgid "A rectangle. Use it to take just one column of a table."
+msgstr "四角い範囲。表の 1 列だけが欲しいときに使います。"
+
+msgid "{kbd}`⇧` + click"
+msgstr "{kbd}`⇧` + クリック"
+
+msgid ""
+"Extends or shrinks the selection to the clicked point. The start of the "
+"selection stays where it is."
+msgstr "いま選んでいる範囲を、クリックした所まで広げたり縮めたりします。選び始めた所は動きません。"
+
+msgid "{kbd}`⇧` + arrow keys"
+msgstr "{kbd}`⇧` + 矢印キー"
+
+msgid ""
+"Moves the end of the selection with the keyboard. With nothing selected, "
+"the keys go to the shell or app as usual."
+msgstr "選んでいる範囲の終わりを、キーボードで動かします。何も選んでいないときは、キーはそのままシェルやアプリに届きます。"
+
+msgid ""
+"**After copying**: the selection stays colored after you copy. One click "
+"or typing a character clears it, and so does starting to type with "
+"Japanese input."
+msgstr ""
+"**コピーしたあと**: 選んだ範囲の色は、コピーしても残ります。どこかを 1 "
+"回クリックするか、文字を打つと消えます。日本語入力で文字を打ち始めたときも消えます。"
+
+msgid ""
+"**What is copied**: spaces at the end of each line are trimmed, and a "
+"line wrapped at the pane width is joined back into one line."
+msgstr "**コピーされる文字**: 行の終わりの空白は削られます。画面の幅で折り返された行は、つないで 1 行にします。"
+
+msgid ""
+"**Colors**: colors are copied along with the text, as HTML. Pasting into "
+"a mail or notes app may keep them. To paste only the text, use "
+"{kbd}`⌘+⌥+⇧+V` (Paste and Match Style) in the app you paste into."
+msgstr ""
+"**色の情報**: "
+"文字と一緒に、色の情報（HTML）もコピーされます。メールやメモに貼ると色が付くことがあります。文字だけを貼りたいときは、貼る側のアプリで "
+"{kbd}`⌘+⌥+⇧+V`（ペーストしてスタイルを合わせる）を使います。"
+
+msgid "⌘C and ⌃C are different keys"
+msgstr "⌘C と ⌃C は別のキー"
+
+msgid ""
+"In a terminal, {kbd}`⌃+C` does not copy. It stops the running command. "
+"Use {kbd}`⌘+C` to copy."
+msgstr "ターミナルでの {kbd}`⌃+C` はコピーではなく、動いているコマンドを止めるキーです。コピーには {kbd}`⌘+C` を使います。"
+
+msgid "Selecting alone does not reach other apps"
+msgstr "選んだだけでは、ほかのアプリに貼れない"
+
+msgid ""
+"By default, text you select with the mouse goes to cmux's selection "
+"clipboard, not to the clipboard. Inside cmux you can paste it with a "
+"middle click or {kbd}`⌘+⇧+V`, but {kbd}`⌘+V` in other apps cannot see it."
+" To paste into another app, put the text on the clipboard with "
+"{kbd}`⌘+C`."
+msgstr ""
+"cmux の初期設定では、マウスで選んだ文字は、クリップボードではなく cmux の「選択用の置き場」に入ります。ここに入った文字は、cmux "
+"の中なら中クリックか {kbd}`⌘+⇧+V` で貼れます。しかし、ほかのアプリの {kbd}`⌘+V` "
+"では貼れません。ほかのアプリに貼るには、{kbd}`⌘+C` でクリップボードに入れます。"
+
+msgid ""
+"Selecting fills the cmux selection clipboard, which only cmux can paste "
+"from. Command C fills the clipboard that every app can paste from."
+msgstr "選ぶだけで cmux の選択用の置き場に入り、cmux の中だけで貼れる。⌘C を押すとクリップボードに入り、どのアプリでも貼れる。"
+
+msgid ""
+"Where selected text goes. Selecting alone fills only the cmux selection "
+"clipboard. To fill the clipboard that other apps paste from, press "
+"{kbd}`⌘+C`."
+msgstr ""
+"マウスで選んだ文字の行き先。選ぶだけで入るのは cmux "
+"の選択用の置き場です。ほかのアプリに貼れるクリップボードに入れるには、{kbd}`⌘+C` を押します。"
+
+msgid "Copying on selection"
+msgstr "選ぶだけでクリップボードに入れたいとき"
+
+msgid ""
+"Turn on copy on select under Terminal in Settings ({kbd}`⌘+,`). Selected "
+"text then goes to both the clipboard and the selection clipboard. It is "
+"off by default."
+msgstr "設定（{kbd}`⌘+,`）の「ターミナル」にある「選択時にコピー」をオンにします。オンにすると、選んだ文字はクリップボードと選択用の置き場の両方に入ります。初期設定はオフです。"
+
+msgid ""
+"Also turn on the copy confirmation in the same place, and a short message"
+" appears each time a mouse selection is copied."
+msgstr "あわせて「コピーの確認を表示」もオンにすると、マウスで選んでコピーされたときに「クリップボードにコピーしました」と短く表示されます。"
+
+msgid ""
+"To set it in `~/.config/cmux/cmux.json` instead, write the following, "
+"then run `cmux reload-config` to apply it."
+msgstr ""
+"設定ファイル `~/.config/cmux/cmux.json` に書く場合は、次のようにします。書いたあとに `cmux reload-"
+"config` を実行すると反映されます。"
+
+msgid "Selecting with the keyboard (copy mode)"
+msgstr "キーボードだけで選ぶ（コピーモード）"
+
+msgid ""
+"To select without the mouse, use cmux's copy mode. You move around the "
+"screen with keys like vim's, select a range, and copy it. Lines that have"
+" scrolled out of view can be selected too. Text copied in copy mode "
+"always goes to the clipboard, whatever the copy on select setting."
+msgstr ""
+"マウスを使わずに選ぶときは、cmux のコピーモードを使います。vim "
+"に似たキーで画面の中を動き、範囲を選んでコピーします。スクロールして見えなくなった行も選べます。コピーモードでコピーした文字は、「選択時にコピー」の設定にかかわらず、クリップボードに入ります。"
+
+msgid ""
+"Command Shift M enters copy mode, v or V starts a selection, and y copies"
+" and leaves. yy copies the cursor line. Esc or q quits."
+msgstr "⌘⇧M でコピーモードに入り、v か V で選び始め、y でコピーして終わる。yy はカーソルの行をコピーする。Esc か q でやめる。"
+
+msgid ""
+"How copy mode works. {kbd}`⌘+⇧+M` enters it, {kbd}`v` or {kbd}`V` starts "
+"a selection, and {kbd}`y` copies. Copying ends copy mode. While copy mode"
+" is on, the pane shows \"vim\" at the top right."
+msgstr ""
+"コピーモードの流れ。{kbd}`⌘+⇧+M` で入り、{kbd}`v` か {kbd}`V` で選び始め、{kbd}`y` "
+"でコピーします。コピーするとコピーモードは終わります。コピーモードのあいだは、ペインの右上に「vim」と表示されます。"
+
+msgid "Example: copying two lines a little higher up"
+msgstr "例: 少し上に出ている 2 行をコピーする"
+
+msgid ""
+"Press {kbd}`⌘+⇧+M`. The pane shows \"vim\" at the top right, and a box "
+"marks the cursor."
+msgstr "{kbd}`⌘+⇧+M` を押します。ペインの右上に「vim」と表示され、カーソルの位置に枠が出ます。"
+
+msgid ""
+"Press {kbd}`k` to go up to the first line you want. Typing a number "
+"first, as in {kbd}`5` {kbd}`k`, moves five lines at once."
+msgstr ""
+"{kbd}`k` を押して、コピーしたい 1 行目まで上がります。{kbd}`5` {kbd}`k` のように数字を先に打つと、5 "
+"行まとめて動きます。"
+
+msgid "Press {kbd}`V` ({kbd}`⇧+V`) to start selecting by line."
+msgstr "{kbd}`V`（{kbd}`⇧+V`）を押して、行単位で選び始めます。"
+
+msgid "Press {kbd}`j` to extend the selection to the second line."
+msgstr "{kbd}`j` を押して、2 行目まで広げます。"
+
+msgid "Press {kbd}`y`. The two lines go to the clipboard, and copy mode ends."
+msgstr "{kbd}`y` を押します。2 行がクリップボードに入り、コピーモードが終わります。"
+
+msgid "Copy mode keys"
+msgstr "コピーモードのキー"
+
+msgid "Enter and leave:"
+msgstr "入る・やめる:"
+
+msgid "Keys"
+msgstr "キー"
+
+msgid "What it does"
+msgstr "すること"
+
+msgid "Enters copy mode. Press it again to leave."
+msgstr "コピーモードに入ります。もう一度押すとやめます。"
+
+msgid "Leaves without copying. The selection is cleared."
+msgstr "コピーせずにやめます。選んでいた範囲は消えます。"
+
+msgid "Move. While you are selecting, the end of the selection moves:"
+msgstr "動く（選んでいるあいだは、範囲の終わりが動きます）:"
+
+msgid "One step left, down, up, or right. The arrow keys do the same."
+msgstr "左、下、上、右へ 1 つ動きます。矢印キーでも同じです。"
+
+msgid "{kbd}`0` {kbd}`^` / {kbd}`$`"
+msgstr "{kbd}`0` {kbd}`^` ／ {kbd}`$`"
+
+msgid "To the start of the line / to the end of the line"
+msgstr "行の先頭へ ／ 行の終わりへ"
+
+msgid "{kbd}`g` {kbd}`g` / {kbd}`G`"
+msgstr "{kbd}`g` {kbd}`g` ／ {kbd}`G`"
+
+msgid ""
+"To the very top, the first line that has scrolled out of view / to the "
+"bottom. {kbd}`Home` / {kbd}`End` do the same."
+msgstr "いちばん上（スクロールして見えなくなった行の先頭）へ ／ いちばん下へ。{kbd}`Home` ／ {kbd}`End` でも同じです。"
+
+msgid "{kbd}`{` / {kbd}`}`"
+msgstr "{kbd}`{` ／ {kbd}`}`"
+
+msgid "To the previous prompt / to the next prompt"
+msgstr "前のプロンプトへ ／ 次のプロンプトへ"
+
+msgid "{kbd}`⌃+U` / {kbd}`⌃+D`"
+msgstr "{kbd}`⌃+U` ／ {kbd}`⌃+D`"
+
+msgid "Scrolls half a screen up / down."
+msgstr "半画面ぶん上へ ／ 下へスクロールします。"
+
+msgid "{kbd}`⌃+B` / {kbd}`⌃+F`"
+msgstr "{kbd}`⌃+B` ／ {kbd}`⌃+F`"
+
+msgid ""
+"Scrolls a full screen up / down. {kbd}`PageUp` / {kbd}`PageDown` do the "
+"same."
+msgstr "1 画面ぶん上へ ／ 下へスクロールします。{kbd}`PageUp` ／ {kbd}`PageDown` でも同じです。"
+
+msgid "{kbd}`⌃+Y` / {kbd}`⌃+E`"
+msgstr "{kbd}`⌃+Y` ／ {kbd}`⌃+E`"
+
+msgid "Scrolls one line up / down."
+msgstr "1 行ぶん上へ ／ 下へスクロールします。"
+
+msgid "A number"
+msgstr "数字"
+
+msgid ""
+"Repeats the next key that many times. {kbd}`5` {kbd}`j` moves down five "
+"lines."
+msgstr "次のキーを、その回数だけくり返します。{kbd}`5` {kbd}`j` で 5 行下へ動きます。"
+
+msgid "Select:"
+msgstr "選ぶ:"
+
+msgid ""
+"Starts selecting by character. Press it again to stop selecting; copy "
+"mode stays on."
+msgstr "文字単位で選び始めます。もう一度押すと、選ぶのをやめます。コピーモードは続きます。"
+
+msgid "Starts selecting by line."
+msgstr "行単位で選び始めます。"
+
+msgid "Copy:"
+msgstr "コピーする:"
+
+msgid "Copies the selection and leaves copy mode."
+msgstr "選んだ範囲をコピーして、コピーモードを終えます。"
+
+msgid ""
+"With nothing selected, copies the line with the cursor and leaves. "
+"{kbd}`3` {kbd}`y` {kbd}`y` copies three lines."
+msgstr "選んでいないときに、カーソルのある行をコピーして終えます。{kbd}`3` {kbd}`y` {kbd}`y` なら 3 行です。"
+
+msgid "Same as {kbd}`y` with a selection, and as {kbd}`y` {kbd}`y` without one."
+msgstr "選んでいれば {kbd}`y` と、選んでいなければ {kbd}`y` {kbd}`y` と同じです。"
+
+msgid "Copies the selection. Copy mode stays on."
+msgstr "選んだ範囲をコピーします。コピーモードは続きます。"
+
+msgid "Search:"
+msgstr "探す:"
+
+msgid "Opens the search bar."
+msgstr "検索バーを開きます。"
+
+msgid "{kbd}`n` / {kbd}`N`"
+msgstr "{kbd}`n` ／ {kbd}`N`"
+
+msgid "To the next match / to the previous match"
+msgstr "次の一致へ ／ 前の一致へ"
+
+msgid ""
+"**Not available**: vim's {kbd}`w` {kbd}`b` {kbd}`e` (moving by word) and "
+"rectangular selection. For a rectangle, use {kbd}`⌥` + drag with the "
+"mouse."
+msgstr ""
+"**ないもの**: vim の {kbd}`w` {kbd}`b` "
+"{kbd}`e`（単語ごとの移動）と、四角い範囲の選択はありません。四角い範囲は、マウスの {kbd}`⌥` + ドラッグで選びます。"
+
+msgid ""
+"**Other keys**: keys not in the tables above are ignored. {kbd}`⌃+C` is "
+"ignored too, so copy mode never stops a running command by accident. Keys"
+" with {kbd}`⌘` work as usual."
+msgstr ""
+"**ほかのキー**: 上の表にないキーは無視されます。{kbd}`⌃+C` "
+"も無視されるので、コピーモードのあいだに、動いているコマンドを止めてしまうことはありません。{kbd}`⌘` を使うキーはふだんどおり働きます。"
+
+msgid ""
+"**Japanese input**: even with Japanese input on, keys are read by their "
+"position on the keyboard."
+msgstr "**日本語入力のとき**: 日本語入力がオンのときも、押したキーの位置で読み取ります。"
+
+msgid ""
+"**Other ways in**: copy mode is not in the menu bar. Besides the key, you"
+" can enter it with Toggle terminal copy mode in the command palette "
+"({kbd}`⌘+⇧+P`). To change {kbd}`⌘+⇧+M`, set "
+"`shortcuts.bindings.toggleTerminalCopyMode` in `cmux.json`."
+msgstr ""
+"**入り方のほか**: "
+"コピーモードはメニューバーにはありません。キーのほかに、コマンドパレット（{kbd}`⌘+⇧+P`）の「ターミナルコピーモードを切替」からも入れます。{kbd}`⌘+⇧+M`"
+" は、`cmux.json` の `shortcuts.bindings.toggleTerminalCopyMode` "
+"で別のキーに変えられます。"
+
+msgid "Selecting inside apps that use the mouse, such as Claude Code"
+msgstr "Claude Code など、マウスを使うアプリの中で選ぶ"
+
+msgid ""
+"Some apps take mouse events themselves, such as Claude Code in "
+"fullscreen, vim with `set mouse=a`, and tmux with `set -g mouse on`. A "
+"plain drag then goes to the app, not to cmux."
+msgstr ""
+"Claude Code の全画面表示、マウスを有効にした vim（`set mouse=a`）や tmux（`set -g mouse "
+"on`）などは、マウスの操作を自分で受け取ります。このとき、ふつうのドラッグは cmux ではなく、そのアプリに届きます。"
+
+msgid ""
+"In fullscreen (the `\"tui\": \"fullscreen\"` setting), Claude Code "
+"selects text itself when you drag on its screen."
+msgstr ""
+"Claude Code が全画面表示（設定 `\"tui\": \"fullscreen\"`）のときは、Claude Code "
+"の画面でドラッグすると、Claude Code が自分で選びます。"
+
+msgid ""
+"A drag without Shift is selected by Claude Code and copied on release. A "
+"drag with Shift held is selected by cmux and copied with Command C."
+msgstr ""
+"Shift を押さずにドラッグすると Claude Code が選び、ボタンを離すとコピーされる。Shift を押したままドラッグすると cmux"
+" が選び、⌘C でコピーする。"
+
+msgid ""
+"Where a drag on the Claude Code screen goes. Without {kbd}`⇧`, Claude "
+"Code selects and copies automatically. With {kbd}`⇧` held, cmux selects."
+msgstr ""
+"Claude Code の画面でドラッグしたときの行き先。{kbd}`⇧` を押さなければ Claude Code "
+"が選んで自動でコピーし、{kbd}`⇧` を押したままなら cmux が選びます。"
+
+msgid "How"
+msgstr "やり方"
+
+msgid "Result"
+msgstr "結果"
+
+msgid ""
+"Claude Code selects, and the text goes to the clipboard when you release "
+"the mouse button. This is Copy on select in Claude Code's `/config`, "
+"which is on by default. A double-click selects a word and a triple-click "
+"a line."
+msgstr ""
+"Claude Code が選び、マウスのボタンを離すとクリップボードに入ります。Claude Code の `/config` にある「Copy "
+"on select」の働きで、初期設定はオンです。ダブルクリックで 1 語、トリプルクリックで 1 行を選びます。"
+
+msgid "{kbd}`⇧` + drag, then {kbd}`⌘+C`"
+msgstr "{kbd}`⇧` + ドラッグ、そのあと {kbd}`⌘+C`"
+
+msgid ""
+"cmux selects. Keep {kbd}`⇧` held until you release the mouse button. The "
+"same works in vim and tmux."
+msgstr "cmux が選びます。マウスのボタンを離すまで、{kbd}`⇧` を押したままにします。vim や tmux の中でも同じです。"
+
+msgid ""
+"Copies Claude Code's last response. `/copy 2` copies the one before it. "
+"If the response has code blocks, a screen asks which part to copy."
+msgstr ""
+"Claude Code の最後の返答をコピーします。`/copy 2` なら 1 "
+"つ前の返答です。返答にコードブロックがあると、どこをコピーするか選ぶ画面が出ます。"
+
+msgid "{kbd}`⌃+O`, then {kbd}`[`"
+msgstr "{kbd}`⌃+O` のあと {kbd}`[`"
+
+msgid ""
+"Writes the whole conversation out as ordinary terminal text. Fullscreen "
+"Claude Code draws only what fits on the screen, so use this to handle a "
+"long conversation with cmux selection or copy mode. {kbd}`Esc` or "
+"{kbd}`q` goes back."
+msgstr ""
+"会話全体を、ふつうのターミナルの文字として書き出します。Claude Code の全画面表示は、画面に見えている部分しか描きません。長い会話を "
+"cmux の選択やコピーモードで扱いたいときに使います。{kbd}`Esc` か {kbd}`q` で元に戻ります。"
+
+msgid "Start with `CLAUDE_CODE_DISABLE_MOUSE=1`"
+msgstr "`CLAUDE_CODE_DISABLE_MOUSE=1` を付けて起動"
+
+msgid ""
+"Claude Code no longer takes the mouse, so a plain drag selects with cmux."
+" Clicking and wheel scrolling stop working in Claude Code, while "
+"{kbd}`PageUp` and {kbd}`PageDown` still scroll."
+msgstr ""
+"Claude Code がマウスを受け取らなくなり、ふつうのドラッグで cmux "
+"が選ぶようになります。そのかわり、クリックでの操作と、ホイールでのスクロールは使えなくなります。{kbd}`PageUp` と "
+"{kbd}`PageDown` でのスクロールは使えます。"
+
+msgid "⌃C means something else in Claude Code"
+msgstr "Claude Code では ⌃C の意味が変わる"
+
+msgid ""
+"While something is selected in Claude Code, {kbd}`⌃+C` copies. With "
+"nothing selected, it interrupts as usual."
+msgstr "Claude Code で何かを選んでいるときの {kbd}`⌃+C` はコピーになります。何も選んでいないときは、ふだんどおり中断のキーです。"
+
+msgid "About this guide"
+msgstr "このページについて"
+
+msgid ""
+"Checked with cmux 0.65.2 (build 113), the Ghostty 1.3.2-HEAD "
+"(`cb1ef7091c`) built into cmux, Claude Code 2.1.316, and macOS. The "
+"default keys and settings come from `ghostty +list-keybinds --default` "
+"and `ghostty +show-config --default --docs` bundled with cmux. cmux's "
+"behavior, such as the copy mode keys, the selection clipboard, and the "
+"menus, comes from the cmux source at tag v0.65.2. The selection rules "
+"come from the Ghostty source that cmux uses, and Claude Code's behavior "
+"from its documentation. The keys were not pressed to confirm."
+msgstr ""
+"確かめた環境は、cmux 0.65.2（ビルド 113）、cmux に組み込まれた Ghostty "
+"1.3.2-HEAD（`cb1ef7091c`）、Claude Code 2.1.316、macOS です。既定のキーと設定値は、cmux "
+"に付いている `ghostty +list-keybinds --default` と `ghostty +show-config "
+"--default --docs` で調べました。コピーモードのキー、選択用の置き場、メニューといった cmux の動きは、cmux "
+"のソース（タグ v0.65.2）で確かめました。選び方は cmux が使っている Ghostty のソースで、Claude Code "
+"の動きは公式ドキュメントで確かめました。キーを実際に押しての確認はしていません。"
+
+msgid "[cmux keyboard shortcuts](https://cmux.com/docs/keyboard-shortcuts)"
+msgstr "[cmux のキーボードショートカット](https://cmux.com/ja/docs/keyboard-shortcuts)"
+
+msgid "[cmux configuration](https://cmux.com/docs/configuration)"
+msgstr "[cmux の設定](https://cmux.com/ja/docs/configuration)"
+
+msgid ""
+"[Ghostty configuration "
+"reference](https://ghostty.org/docs/config/reference)"
+msgstr "[Ghostty の設定リファレンス（英語）](https://ghostty.org/docs/config/reference)"
+
+msgid "[Claude Code fullscreen](https://code.claude.com/docs/en/fullscreen)"
+msgstr "[Claude Code の全画面表示](https://code.claude.com/docs/ja/fullscreen)"
+
+msgid "Guides"
+msgstr "解説"
 
 msgid "cmux"
 msgstr "cmux"

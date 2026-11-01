@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852 268" width="852" height="268">
+<style>
+.bg { fill: #ffffff; stroke: #dbdfe6; }
+text { fill: #161a20; font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif; font-size: 12.5px; }
+.term, .term-p, .vim { font-family: "SFMono-Regular", Menlo, monospace; }
+.term { font-size: 12.5px; } .term-p { font-size: 12px; } .vim { font-size: 10.5px; }
+.box { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.box.on { stroke: #1d55cc; stroke-width: 1.5; }
+.edge { fill: none; stroke: #4b5361; stroke-width: 1.25; }
+.edge.on { stroke: #1d55cc; stroke-width: 1.75; }
+.arrowhead { fill: #4b5361; } .arrowhead.on { fill: #1d55cc; }
+.box-t { font-size: 13px; font-weight: 600; }
+.box-n, .arrow-t, .cap-n { font-size: 11.5px; fill: #4b5361; } .cap-n { font-size: 11px; }
+.key { font-size: 12px; font-weight: 600; fill: #1d55cc; letter-spacing: 0.04em; }
+.key-ink { font-size: 12px; font-weight: 500; letter-spacing: 0.04em; }
+.pane { fill: #f7f8fa; stroke: #4b5361; stroke-width: 1; }
+.sel { fill: #c0cff1; }
+.ptr { fill: #161a20; stroke: #ffffff; stroke-width: 1.2; stroke-linejoin: round; }
+.store { fill: #edf1fb; stroke: #1d55cc; stroke-width: 1.25; }
+.vim-badge { fill: #e8e8e9; stroke: #4b5361; stroke-width: 0.8; }
+.k { font-weight: 600; fill: #1d55cc; } .k-ink { font-weight: 600; }
+.keycap { fill: #ffffff; stroke: #1d55cc; stroke-width: 1.25; }
+.keycap-ink { fill: #ffffff; stroke: #4b5361; stroke-width: 1; }
+.cap-s { font-size: 19px; font-weight: 500; } .cap-s.on { fill: #1d55cc; }
+.plus { font-size: 18px; fill: #4b5361; }
+.tab-t { font-size: 11.5px; font-weight: 600; }
+.tabbar { fill: #f1f1f2; }
+.sidebar { fill: #f3f4f4; stroke: #4b5361; stroke-width: 1; }
+.ws-row { fill: #eaeaeb; } .ws-row.on { fill: #bbccf0; }
+.line-ph { fill: #dedfe0; }
+.addr { fill: #ffffff; stroke: #4b5361; stroke-width: 0.8; }
+.focus-ring { fill: none; stroke: #1d55cc; stroke-width: 3; }
+.badge-c { fill: #1d55cc; } .badge-ink { fill: #4b5361; }
+.badge { font-size: 11px; font-weight: 700; fill: #ffffff; }
+.arc-t { font-size: 13.5px; }
+.cursor { fill: #161a20; }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="851" height="267" rx="10"/>
+<g transform="translate(16 16)">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="arrowhead" d="M0 0 L10 5 L0 10 Z"/></marker><marker id="a-on" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="arrowhead on" d="M0 0 L10 5 L0 10 Z"/></marker></defs>
+<rect class="box" x="20" y="86" width="140" height="64" rx="8"/>
+<text class="box-t" x="90" y="114" text-anchor="middle">Normal</text>
+<text class="box-n" x="90" y="134" text-anchor="middle">using a shell or app</text>
+<rect class="box on" x="240" y="86" width="160" height="64" rx="8"/>
+<text class="box-t" x="320" y="114" text-anchor="middle">Copy mode</text>
+<text class="box-n" x="320" y="134" text-anchor="middle">move with h j k l</text>
+<rect class="vim-badge" x="364" y="77" width="32" height="17" rx="8.5"/>
+<text class="vim" x="380" y="89" text-anchor="middle">vim</text>
+<rect class="box on" x="470" y="86" width="150" height="64" rx="8"/>
+<text class="box-t" x="545" y="114" text-anchor="middle">Selecting</text>
+<text class="box-n" x="545" y="134" text-anchor="middle">extend with h j k l</text>
+<rect class="store" x="690" y="86" width="110" height="64" rx="8"/>
+<text class="box-t" x="745" y="114" text-anchor="middle">Clipboard</text>
+<text class="box-n" x="745" y="134" text-anchor="middle">copy mode ends</text>
+<line class="edge" x1="160" y1="118" x2="238" y2="118" marker-end="url(#a)"/>
+<text class="key" x="199" y="109" text-anchor="middle">⌘⇧M</text>
+<line class="edge" x1="400" y1="118" x2="468" y2="118" marker-end="url(#a)"/>
+<text class="key-ink" x="434" y="109" text-anchor="middle">v / V</text>
+<line class="edge on" x1="620" y1="118" x2="688" y2="118" marker-end="url(#a-on)"/>
+<text class="key" x="654" y="109" text-anchor="middle">y</text>
+<path class="edge" d="M320 86 V44 H745 V84" marker-end="url(#a)"/>
+<text class="arrow-t" x="532" y="36" text-anchor="middle"><tspan class="k-ink">yy</tspan> copies the cursor line without selecting</text>
+<path class="edge" d="M545 150 V196 H90 V152" marker-end="url(#a)"/>
+<line class="edge" x1="320" y1="150" x2="320" y2="196"/>
+<text class="arrow-t" x="318" y="218" text-anchor="middle"><tspan class="k-ink">Esc</tspan> or <tspan class="k-ink">q</tspan> quits without copying</text>
+</g>
+</svg>

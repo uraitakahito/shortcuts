@@ -13,6 +13,12 @@ cmux
 Default shortcuts of cmux 0.65.2 (113).
 See `Keyboard Shortcuts <https://cmux.com/docs/keyboard-shortcuts>`_ for the full list.
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Guides
+
+   copy
+
 App
 =========================
 
