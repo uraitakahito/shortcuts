@@ -1,0 +1,20 @@
+name: Audit dependencies
+
+on:
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 0 * * 1'   # 毎週月曜 9:00（日本時間）
+  workflow_dispatch:
+
+# 公開のワークフローとは分ける。新しい勧告が出た日でも記事の公開は止めない
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.3   # v10 のような浮動メジャータグは無いので完全版で固定
+      - run: uv audit --frozen --preview-features audit-command   # 既知の脆弱性が 1 件でもあれば失敗する
