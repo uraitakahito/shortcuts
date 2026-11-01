@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Vim"
+msgstr ""
+
+msgid "Editing"
+msgstr ""
+
+msgid "Insert text before the cursor [count] times."
+msgstr ""
+
+msgid "Insert text before the first non-blank in the line [count] times."
+msgstr ""
+
+msgid ""
+"Appent text after the cursor [count] times. If the cursor is in the first"
+" column of an empty line Insert starts there."
+msgstr ""
+
+msgid "Appent text at the end of the line [count] times."
+msgstr ""
+
+msgid "Begin a new line below the cursor and insert text, repeat [count] times."
+msgstr ""
+
+msgid "Begin a new line above the cursor and insert text, repeat [count] times."
+msgstr ""
+
+msgid "Replace one character."
+msgstr ""
+
+msgid "Undo [count] changes."
+msgstr ""
+
+msgid "Redo [count] changes which were undone."
+msgstr ""
+
+msgid "Insert Mode"
+msgstr ""
+
+msgid ""
+"`Delete word before the cursor during insert mode. "
+"<https://knowledge.sakura.ad.jp/22465/>`_"
+msgstr ""
+
+msgid "Execute one command, return to Insert mode."
+msgstr ""
+
+msgid "indent (move right) line one shiftwidth during insert mode."
+msgstr ""
+
+msgid "Delete one shiftwidth of indent at the start of the current line."
+msgstr ""
+
+msgid "Delete all entered characters before the cursor in the current line."
+msgstr ""
+
+msgid "Operator"
+msgstr ""
+
+msgid "Delete {motion} text [into register x] and start insert."
+msgstr ""
+
+msgid "Delete text that {motion} moves over [into register x]."
+msgstr ""
+
+msgid "Yank(copy) {motion} text [into register x]."
+msgstr ""
+
+msgid "Yank(copy) [count] lines [into register x]."
+msgstr ""
+
+msgid "Make {motion} text uppercase."
+msgstr ""
+
+msgid "Make {motion} text lowercase."
+msgstr ""
+
+msgid "Shift {motion} lines one 'shiftwidth' rightwards."
+msgstr ""
+
+msgid "Shift {motion} lines one 'shiftwidth' leftwards."
+msgstr ""
+
+msgid "Motion"
+msgstr ""
+
+msgid "To the first character of the line."
+msgstr ""
+
+msgid "Start of line(after whitespace)"
+msgstr ""
+
+msgid "End of line"
+msgstr ""
+
+msgid "Goto line [count], default first line."
+msgstr ""
+
+msgid "Goto line [count], default last line."
+msgstr ""
+
+msgid "Previous/next word"
+msgstr ""
+
+msgid "Go forward/backward to character {char}"
+msgstr ""
+
+msgid "Repeat latest f, t, F or T [count] times."
+msgstr ""
+
+msgid "Repeat latest f, t, F or T in opposite direction [count] times."
+msgstr ""
+
+msgid ""
+"Find the next item in this line after or under the cursor and ump to its "
+"match. Items can be: ([{}])"
+msgstr ""
+
+msgid "Visual mode"
+msgstr ""
+
+msgid "Start Visual mode per character."
+msgstr ""
+
+msgid "Start Visual mode per linewise."
+msgstr ""
+
+msgid "Start Visual mode blockwise."
+msgstr ""
+
+msgid "Clipboard"
+msgstr ""
+
+msgid "Yank {motion} text [into register x ]."
+msgstr ""
+
+msgid "Yank [count] lines [into register x ] linewise."
+msgstr ""
+
+msgid "Text objects"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+msgid ""
+"Text objects let you operate (with an operator) in or aound text "
+"blocks(objects)."
+msgstr ""
+
+msgid "v"
+msgstr ""
+
+msgid "i"
+msgstr ""
+
+msgid "p"
+msgstr ""
+
+msgid "[i]nside or [a]round"
+msgstr ""
+
+msgid "Text object"
+msgstr ""
+
+msgid "Paragraph"
+msgstr ""
+
+msgid "Word"
+msgstr ""
+
+msgid "Sentence"
+msgstr ""
+
+msgid "A [], (), {} or <>  block"
+msgstr ""
+
+msgid "A quoted string"
+msgstr ""
+
+msgid "Window commands"
+msgstr ""
+
+msgid "Go to N next window (wrap around)"
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "`Terminal window support. <https://vimhelp.org/terminal.txt.html>`_"
+msgstr ""
+
+msgid ""
+"Open a window and display the help file in read-only, additionally jump "
+"to the tag {subject}. `Prepend something to specify the context. e.g. "
+"Insert mode command is :help i_<Esc> <https://vimhelp.org/>`_"
+msgstr ""
+
+msgid ""
+"Simple changes can be repeated with the \".\" command. Without a count, "
+"the count of the last change is used."
+msgstr ""
+
+msgid "Replace foo with bar in whole document."
+msgstr ""
+
+msgid "`Vim cheatsheet <https://devhints.io/vim>`_"
+msgstr ""
+

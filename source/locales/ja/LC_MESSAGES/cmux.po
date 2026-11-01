@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "cmux"
+msgstr ""
+
+msgid ""
+"Default shortcuts of cmux 0.65.2 (113). See `Keyboard Shortcuts "
+"<https://cmux.com/docs/keyboard-shortcuts>`_ for the full list."
+msgstr ""
+
+msgid "App"
+msgstr ""
+
+msgid "settings"
+msgstr ""
+
+msgid "reload configuration"
+msgstr ""
+
+msgid "show/hide all cmux windows (system-wide hotkey)"
+msgstr ""
+
+msgid "global search (when cmux is active)"
+msgstr ""
+
+msgid "command palette"
+msgstr ""
+
+msgid "show agent inbox"
+msgstr ""
+
+msgid "command palette next result (in the command palette)"
+msgstr ""
+
+msgid "command palette previous result (in the command palette)"
+msgstr ""
+
+msgid "new window"
+msgstr ""
+
+msgid "close window"
+msgstr ""
+
+msgid "toggle full screen"
+msgstr ""
+
+msgid "reopen previous session"
+msgstr ""
+
+msgid "quit cmux"
+msgstr ""
+
+msgid "Workspaces"
+msgstr ""
+
+msgid "toggle left sidebar"
+msgstr ""
+
+msgid "toggle right sidebar"
+msgstr ""
+
+msgid "new local workspace"
+msgstr ""
+
+msgid "new browser workspace (the first surface is a browser pane)"
+msgstr ""
+
+msgid "save current workspace layout as a template"
+msgstr ""
+
+msgid "open folder"
+msgstr ""
+
+msgid "go to workspace (workspace switcher)"
+msgstr ""
+
+msgid "next workspace"
+msgstr ""
+
+msgid "previous workspace"
+msgstr ""
+
+msgid "move workspace up"
+msgstr ""
+
+msgid "move workspace down"
+msgstr ""
+
+msgid "focus back (outside browser panes)"
+msgstr ""
+
+msgid "focus forward (outside browser panes)"
+msgstr ""
+
+msgid "select workspace 1-8"
+msgstr ""
+
+msgid "select the last workspace"
+msgstr ""
+
+msgid "rename workspace"
+msgstr ""
+
+msgid "edit workspace description"
+msgstr ""
+
+msgid "mark workspace as done"
+msgstr ""
+
+msgid "cycle workspace status one lane forward"
+msgstr ""
+
+msgid "new empty workspace group"
+msgstr ""
+
+msgid "group selected workspaces"
+msgstr ""
+
+msgid "collapse or expand focused workspace group"
+msgstr ""
+
+msgid ""
+"focus the workspace sidebar (↑/↓ select, Return or Esc goes back to the "
+"terminal)"
+msgstr ""
+
+msgid "toggle right-sidebar focus"
+msgstr ""
+
+msgid "close workspace"
+msgstr ""
+
+msgid "Surfaces"
+msgstr ""
+
+msgid "new surface"
+msgstr ""
+
+msgid "next surface"
+msgstr ""
+
+msgid "previous surface"
+msgstr ""
+
+msgid "reorder surface left"
+msgstr ""
+
+msgid "reorder surface right"
+msgstr ""
+
+msgid "move surface to previous pane"
+msgstr ""
+
+msgid "move surface to next pane"
+msgstr ""
+
+msgid "move the surface to the pane in that direction"
+msgstr ""
+
+msgid "select surface 1-8"
+msgstr ""
+
+msgid "select the last surface"
+msgstr ""
+
+msgid "rename tab"
+msgstr ""
+
+msgid "close tab"
+msgstr ""
+
+msgid "close other tabs in pane"
+msgstr ""
+
+msgid "reopen last closed"
+msgstr ""
+
+msgid "toggle terminal copy mode"
+msgstr ""
+
+msgid "clear screen (keep scrollback)"
+msgstr ""
+
+msgid "Split Panes"
+msgstr ""
+
+msgid "focus the pane in that direction"
+msgstr ""
+
+msgid "focus pane 1-8"
+msgstr ""
+
+msgid "focus the last pane"
+msgstr ""
+
+msgid "split right"
+msgstr ""
+
+msgid "split down"
+msgstr ""
+
+msgid "new pane with auto layout (retiles all panes)"
+msgstr ""
+
+msgid "split browser right"
+msgstr ""
+
+msgid "split browser down"
+msgstr ""
+
+msgid "toggle pane zoom"
+msgstr ""
+
+msgid "increase font size for every terminal in the selected workspace"
+msgstr ""
+
+msgid "decrease font size for every terminal in the selected workspace"
+msgstr ""
+
+msgid "reset font size for every terminal in the selected workspace"
+msgstr ""
+
+msgid "equalize split sizes"
+msgstr ""
+
+msgid "resize the pane left, right, up, or down"
+msgstr ""
+
+msgid "Browser"
+msgstr ""
+
+msgid "open browser"
+msgstr ""
+
+msgid "focus address bar"
+msgstr ""
+
+msgid "back (in a browser pane)"
+msgstr ""
+
+msgid "forward (in a browser pane)"
+msgstr ""
+
+msgid "reload page (in a browser pane)"
+msgstr ""
+
+msgid "hard refresh page (in a browser pane)"
+msgstr ""
+
+msgid "zoom in"
+msgstr ""
+
+msgid "zoom out"
+msgstr ""
+
+msgid "actual size"
+msgstr ""
+
+msgid "toggle browser developer tools"
+msgstr ""
+
+msgid "show browser JavaScript console"
+msgstr ""
+
+msgid "enter browser focus mode (the page gets shortcuts first)"
+msgstr ""
+
+msgid ""
+"leave browser focus mode (press twice within 1.6 seconds; the first Esc "
+"also reaches the page)"
+msgstr ""
+
+msgid "toggle browser design mode (select and edit elements visually)"
+msgstr ""
+
+msgid "toggle React Grab (in a browser pane)"
+msgstr ""
+
+msgid "Find"
+msgstr ""
+
+msgid "find"
+msgstr ""
+
+msgid "find in directory"
+msgstr ""
+
+msgid "find next"
+msgstr ""
+
+msgid "find previous"
+msgstr ""
+
+msgid "hide find bar"
+msgstr ""
+
+msgid "use selection for find"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "show notifications"
+msgstr ""
+
+msgid "jump to latest unread"
+msgstr ""
+
+msgid "jump to the surface where you last sent an agent prompt"
+msgstr ""
+
+msgid "toggle current item unread state"
+msgstr ""
+
+msgid "mark current item as oldest unread and jump to the next latest unread"
+msgstr ""
+
+msgid "flash focused panel"
+msgstr ""
+
+msgid "Copy and Paste"
+msgstr ""
+
+msgid ""
+"copy the selection to the clipboard (selecting alone does not copy; ``⌃ +"
+" c`` stops the running command instead)"
+msgstr ""
+
+msgid ""
+"paste the last selection inside cmux (middle click does the same; other "
+"apps cannot paste it)"
+msgstr ""
+
+msgid ""
+"select a word (``/`` and ``.`` do not split words, so a path such as "
+"``src/todo.ts`` is one word)"
+msgstr ""
+
+msgid "select a line"
+msgstr ""
+
+msgid ""
+"select the whole output of one command (needs shell integration, which "
+"cmux sets up for zsh)"
+msgstr ""
+
+msgid "select a rectangle, such as one column of a table"
+msgstr ""
+
+msgid "extend or shrink the selection to the clicked point"
+msgstr ""
+
+msgid "move the end of the selection (only while text is selected)"
+msgstr ""
+
+msgid ""
+"select with cmux inside apps that use the mouse, such as Claude Code, "
+"vim, and tmux"
+msgstr ""
+
+msgid "Claude Code"
+msgstr ""
+
+msgid ""
+"select text; it is copied to the clipboard when you release the mouse "
+"button (Copy on select in /config)"
+msgstr ""
+
+msgid "copy the selection; with nothing selected, interrupt as usual"
+msgstr ""
+
+msgid ""
+"write the whole conversation into the terminal as plain text, so cmux "
+"selection and copy mode can reach it"
+msgstr ""
+
+msgid "Copy Mode"
+msgstr ""
+
+msgid "enter or leave copy mode"
+msgstr ""
+
+msgid "leave copy mode without copying"
+msgstr ""
+
+msgid "move left, down, up, or right (arrow keys also work)"
+msgstr ""
+
+msgid "move to the start of the line"
+msgstr ""
+
+msgid "move to the end of the line"
+msgstr ""
+
+msgid "move to the top of the scrollback (``Home`` also works)"
+msgstr ""
+
+msgid "move to the bottom (``End`` also works)"
+msgstr ""
+
+msgid "move to the previous prompt"
+msgstr ""
+
+msgid "move to the next prompt"
+msgstr ""
+
+msgid "scroll half a page up or down"
+msgstr ""
+
+msgid "scroll a page up or down (``PageUp`` and ``PageDown`` also work)"
+msgstr ""
+
+msgid "scroll a line up or down"
+msgstr ""
+
+msgid "repeat a motion (``5j`` moves down five lines)"
+msgstr ""
+
+msgid "start selecting by character (press again to stop selecting)"
+msgstr ""
+
+msgid "start selecting by line"
+msgstr ""
+
+msgid "copy the selection and leave copy mode"
+msgstr ""
+
+msgid ""
+"copy the current line and leave copy mode when nothing is selected "
+"(``3yy`` copies three lines)"
+msgstr ""
+
+msgid "same as ``y`` with a selection, otherwise same as ``yy``"
+msgstr ""
+
+msgid "copy the selection and stay in copy mode"
+msgstr ""
+
+msgid "open the search bar"
+msgstr ""
+
+msgid "move to the next or previous match"
+msgstr ""
+

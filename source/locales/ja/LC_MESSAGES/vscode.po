@@ -1,0 +1,253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, Takahito Urai
+# This file is distributed under the same license as the shortcuts package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: shortcuts \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-01 16:53+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+msgid "Visual Studio Code"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "move by word"
+msgstr ""
+
+msgid "move a tab from one of two split editors to another"
+msgstr ""
+
+msgid "focus the editor"
+msgstr ""
+
+msgid "move tab"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "go to line"
+msgstr ""
+
+msgid ""
+"`Bracket matching "
+"<https://code.visualstudio.com/docs/editor/editingevolved#_bracket-"
+"matching>`_"
+msgstr ""
+
+msgid "go to references"
+msgstr ""
+
+msgid "multi-cursor / Selection"
+msgstr ""
+
+msgid "extend selection by word"
+msgstr ""
+
+msgid "column box selection"
+msgstr ""
+
+msgid "Select all occurrences of current selection"
+msgstr ""
+
+msgid "Editing"
+msgstr ""
+
+msgid "insert line below"
+msgstr ""
+
+msgid "insert line above"
+msgstr ""
+
+msgid "move line up/down"
+msgstr ""
+
+msgid "Replace text in bulk"
+msgstr ""
+
+msgid "Window Management"
+msgstr ""
+
+msgid "Focus into First/Second Editor Group"
+msgstr ""
+
+msgid "Move to previous terminal"
+msgstr ""
+
+msgid "Move to previous editor"
+msgstr ""
+
+msgid "Move to next editor"
+msgstr ""
+
+msgid "Display"
+msgstr ""
+
+msgid "Show source control"
+msgstr ""
+
+msgid "Open Preview to the Side"
+msgstr ""
+
+msgid "Toggle integrated terminal"
+msgstr ""
+
+msgid "Development"
+msgstr ""
+
+msgid ""
+"You can navigate symbols inside a file with ⇧⌘O. By typing : the symbols "
+"will be grouped by category. Press Up or Down and navigate to the place "
+"you want. ( `See Also "
+"<https://code.visualstudio.com/docs/editor/editingevolved#_go-to-"
+"symbol>`_ )"
+msgstr ""
+
+msgid "Copilot Chat"
+msgstr ""
+
+msgid "Expand/Collapse current code block"
+msgstr ""
+
+msgid "Panel"
+msgstr ""
+
+msgid "output"
+msgstr ""
+
+msgid "debug console"
+msgstr ""
+
+msgid "Sidebars"
+msgstr ""
+
+msgid "Explorer: Focus on Open Editors View"
+msgstr ""
+
+msgid ""
+"`Search for files in the File Explorer "
+"<https://code.visualstudio.com/updates/v1_94#_find-in-explorer>`_"
+msgstr ""
+
+msgid "Extensions"
+msgstr ""
+
+msgid "Bookmarks"
+msgstr ""
+
+msgid "Mark/unmark positions in your code"
+msgstr ""
+
+msgid "Jump forward and backward between bookmarks"
+msgstr ""
+
+msgid "GitHub Copilot"
+msgstr ""
+
+msgid "Accept Panel Suggestion at the Cursor"
+msgstr ""
+
+msgid "Accept suggestion word by word"
+msgstr ""
+
+msgid "Debug Last Terminal Command"
+msgstr ""
+
+msgid "Navigate to the Next Panel Suggestion"
+msgstr ""
+
+msgid "Navigate to the Previous Panel Suggestion"
+msgstr ""
+
+msgid "Toggle Copilot Chat"
+msgstr ""
+
+msgid ""
+"`Undo requests <https://code.visualstudio.com/updates/v1_101#_chat-ux-"
+"improvements>`_"
+msgstr ""
+
+msgid "Context Variables"
+msgstr ""
+
+msgid "Selected text in the editor"
+msgstr ""
+
+msgid "Selected text in the terminal"
+msgstr ""
+
+msgid "Last executed command and its result in the terminal"
+msgstr ""
+
+msgid ""
+"Analyzes highly relevant code and files from the entire current workspace"
+" and adds them as context for prompts."
+msgstr ""
+
+msgid ""
+"Retrieves web page content from the specified URL and adds it to the "
+"context."
+msgstr ""
+
+msgid ""
+"By entering a file or folder name after # (e.g., #src/main.js), you can "
+"explicitly add the contents of that file or folder as context for the "
+"chat."
+msgstr ""
+
+msgid ""
+"By entering a symbol name such as function name, class name, or variable "
+"name after # (e.g., #myFunction), it searches for the definition and "
+"reference locations of the corresponding symbol from files in the "
+"workspace and adds them as context."
+msgstr ""
+
+msgid ""
+"Adds information about tests that failed in the most recent test "
+"execution as context. This is useful for debugging test code and "
+"identifying areas that need fixing."
+msgstr ""
+
+msgid "Command Palette"
+msgstr ""
+
+msgid "Attach to a Docker container"
+msgstr ""
+
+msgid "edit and find available key bindings"
+msgstr ""
+
+msgid "split an editor"
+msgstr ""
+
+msgid "move a tab from A to B"
+msgstr ""
+
+msgid "Core CLI options"
+msgstr ""
+
+msgid "Open a file difference editor. Requires two file paths as arguments."
+msgstr ""
+
+msgid "Forces opening a file or folder in the last active window."
+msgstr ""
+
+msgid ""
+"`vscode cheat sheet <https://code.visualstudio.com/shortcuts/keyboard-"
+"shortcuts-macos.pdf>`_"
+msgstr ""
+
